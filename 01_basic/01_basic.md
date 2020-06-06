@@ -31,4 +31,4 @@ Hello World
 
 ### 演習
 
-+ [エクササイズ - Hello Python!](ex/01_baic_ex.md)
++ [エクササイズ - Hello Python!](ex/01_basic_ex.md)
