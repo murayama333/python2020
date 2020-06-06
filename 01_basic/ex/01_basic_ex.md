@@ -1,4 +1,4 @@
-# エクササイズ - Pythonとは
+# エクササイズ - Hello Python!
 
 ## hello_ex1.py
 

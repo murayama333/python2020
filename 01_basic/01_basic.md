@@ -1,4 +1,4 @@
-# Pythonとは
+# Hello Python!
 
 ### hello.py
 
@@ -31,4 +31,4 @@ Hello World
 
 ### 演習
 
-+ [エクササイズ - Pythonとは](ex/01_python_ex.md)
++ [エクササイズ - Hello Python!](ex/01_python_ex.md)
