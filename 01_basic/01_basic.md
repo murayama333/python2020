@@ -15,10 +15,14 @@ Hello World
 
 ---
 
-### 考察
+### 解説
 
-+ Pythonのインストール
-+ Pythonプログラムの実行方法
++ テキストエディタで作成したPythonプログラムは拡張子を.pyとして保存する
++ ターミナル（コマンドプロンプト）でpythonコマンドにファイル名を指定して実行する
++ print関数によって画面に文字列データを出力できる
+
+### 外部リンク
+
 + [python.org](https://www.python.org/)
 
 > Python is powerful... and fast;<br>
