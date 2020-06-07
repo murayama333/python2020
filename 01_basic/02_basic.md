@@ -77,6 +77,38 @@ print(n)
 
 ---
 
+### var4.py
+
+```python
+a = 1
+b = "1"
+c = 1.0
+d = True
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+```
+
+### 実行
+
+```
+$ python var4.py 
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'bool'>
+```
+
+### 解説
+
++ `type`関数によって変数に格納されているデータのデータ型を確認できる
++ 整数型（`int`）、浮動小数点型（`float`）、文字列型（`str`）、真理値型（`bool`）を使うことが多い
++ `str`関数などデータ型を変換するための関数も用意されている
+
+---
+
 ### 演習
 
 + [エクササイズ - 変数と演算子](ex/02_basic_ex.md)
