@@ -4,7 +4,7 @@
   + [Hello Python!](01_basic/01_basic.md)
   + [変数と演算子](01_basic/02_basic.md)
   + [制御構文 - 分岐構造 - if文](01_basic/03_basic.md)
-  + 制御構文 - 反復構造 - while文
+  + [制御構文 - 反復構造 - while文](01_basic/04_basic.md)
   + 制御構文 - 反復構造 - for文
   + データ構造 - リスト
   + データ構造 - ディクショナリ
