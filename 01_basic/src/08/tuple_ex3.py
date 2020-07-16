@@ -1,3 +1,3 @@
-ages = [22, 20, 25, 20, 18]
+ages = (35, 42, 67, 34, 46)
 length = len(ages)
 print(length)

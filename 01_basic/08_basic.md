@@ -1,15 +1,13 @@
-# リスト
+# タプル
 
-### list1.py
+### tuple1.py
 
-+ リストは一つの変数で複数のデータを管理する仕組みです。
-+ リストに含まれる一つひとつのデータを要素と呼びます。
++ タプルは、リストと同じように一つの変数で複数のデータを管理する仕組みです。
 + 要素には先頭から要素番号（0から始まる番号）が割り振られています。
-
-> 要素番号のことを添え字やインデックスなどと呼びます。
++ タプルはリストと異なり、一度作成すると要素の追加、入れ替え、削除ができないようになっています。
 
 ```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
+cities = ("Osaka", "Sakai", "Higashiosaka")
 print(cities[0])
 print(cities[1])
 print(cities[2])
@@ -18,34 +16,34 @@ print(cities[2])
 ### 実行
 
 ```
-$ python list1.py
+$ python tuple1.py
 Osaka
 Sakai
 Higashiosaka
 ```
 
-### list1_2.py
+### tuple1_2.py
 
-+ Pythonのリストはprint関数で出力するとリスト全体が表示されます。
++ Pythonのタプルはprint関数で出力するとタプル全体が表示されます。
 
 ```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
+cities = ("Osaka", "Sakai", "Higashiosaka")
 print(cities)
 ```
 
 ### 実行
 
 ```
-$ python list1_2.py 
-['Osaka', 'Sakai', 'Higashiosaka']
+$ python tuple1_2.py
+('Osaka', 'Sakai', 'Higashiosaka')
 ```
 
-### list1_3.py
+### tuple1_3.py
 
-+ Pythonのリストは`:`を使ったスライス指定が可能です。
++ Pythonのタプルは`:`を使ったスライス指定が可能です。
 
 ```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
+cities = ("Osaka", "Sakai", "Higashiosaka")
 print(cities[0:2])
 print(cities[1:])
 print(cities[:2])
@@ -54,20 +52,20 @@ print(cities[:2])
 ### 実行
 
 ```
-$ python list1_3.py
-['Osaka', 'Sakai']
-['Sakai', 'Higashiosaka']
-['Osaka', 'Sakai']
+$ python tuple1_3.py
+('Osaka', 'Sakai')
+('Sakai', 'Higashiosaka')
+('Osaka', 'Sakai')
 ```
 
 ---
 
-### list2.py
+### tuple2.py
 
-+ リストの要素数を求めるには`len`関数を使います。
++ タプルの要素数を求めるには`len`関数を使います。
 
 ```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
+cities = ("Osaka", "Sakai", "Higashiosaka")
 length = len(cities)
 print(length)
 ```
@@ -75,41 +73,19 @@ print(length)
 ### 実行
 
 ```
-$ python list2.py
+$ python tuple2.py
 3
 ```
 
 ---
 
 
-### list3.py
+### tuple3.py
 
-+ リストは`for`文を使ってループで処理できます。
-+ リストの要素番号に`for`文のカウンター変数（`i`）を使います。
-+ リストの要素番号は`0`から始まる点に注意します。
++ タプルは`for`文を使ってループで処理できます。
 
 ```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
-length = len(cities)
-for i in range(length):
-  print(cities[i])
-```
-
-### 実行
-
-```
-$ python list3.py
-Osaka
-Sakai
-Higashiosaka
-```
-
-### list3_2.py
-
-+ for文の`in`句にはリスト変数を指定します。
-
-```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
+cities = ("Osaka", "Sakai", "Higashiosaka")
 for city in cities:
   print(city)
 ```
@@ -117,46 +93,18 @@ for city in cities:
 ### 実行
 
 ```
-$ python list3.py
+$ python tuple3.py
 Osaka
 Sakai
 Higashiosaka
 ```
 
-> `list3.py`に比べて`list3_2.py`の方が一般的な書き方です。
+### tuple4.py
 
----
-
-
-### list4.py
-
-+ リスト変数のappendメソッドを使うことでリストに要素を追加できます。
++ タプルは一度作成すると要素の追加、入れ替え、削除ができません。
 
 ```python
-cities = []
-cities.append("Osaka")
-cities.append("Sakai")
-cities.append("Higashiosaka")
-
-print(cities)
-```
-
-### 実行
-
-```
-$ python list4.py
-['Osaka', 'Sakai', 'Higashiosaka']
-```
-
----
-
-
-### list5.py
-
-+ リストに対して要素番号を指定することで、リストの要素を更新できます。
-
-```python
-cities = ["Osaka", "Sakai", "Higashiosaka"]
+cities = ("Osaka", "Sakai", "Higashiosaka")
 print(cities)
 
 cities[0] = "Hirakata"
@@ -166,13 +114,18 @@ print(cities)
 ### 実行
 
 ```
-$ python list5.py 
-['Osaka', 'Sakai', 'Higashiosaka']
-['Hirakata', 'Sakai', 'Higashiosaka']
+$ python tuple4.py 
+('Osaka', 'Sakai', 'Higashiosaka')
+Traceback (most recent call last):
+  File "tuple4.py", line 4, in <module>
+    cities[0] = "Hirakata"
+TypeError: 'tuple' object does not support item assignment
 ```
+
+> 既存のタプルに新たなオブジェクトを割り当てることはできません。
 
 ---
 
 ### 演習
 
-+ [エクササイズ - リスト](ex/06_basic_ex.md)
++ [エクササイズ - タプル](ex/08_basic_ex.md)
