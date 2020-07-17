@@ -1,161 +1,178 @@
-# 関数 - 関数定義
+# 関数 - 関数の定義
 
-### func1.py
+### def1.py
 
 + 足し算をする`add`関数を定義します。
-+ `add`関数の引数に`10`と`20`を指定して呼び出します。
-+ `add`関数の戻り値を`$result`に代入します。
++ `add`関数は引数に`x`と`y`の2つを受け取ります。
++ `add`関数は戻り値`x`と`y`の加算結果を返します。
 
 ```python
 def add(x, y):
   z = x + y
   return z
 
-result = add(10, 20)
-print(result)
+a = add(10, 20)
+b = add(30, 40)
+c = add(a, b)
+print(c)
 ```
+
+> 定義した関数は何度でも呼び出すことができます。
+
+#### 関数定義
+
++ 関数を定義するにはdefキーワードを使います。
++ `def`キーワードの後に関数名と引数を定義します。
++ 関数の戻り値は`return`キーワードで指定します。
+
+```
+def 関数名(引数):
+  処理
+  return 戻り値
+```
+
+> Pythonは関数の処理ブロックもインデントで表現します。引数の後に`:`を付けることを忘れないようにしてください。
 
 ### 実行
 
 ```
-$ python func1.py
-30
+$ python def1.py 
+100
 ```
 
 ---
 
 
-### func2.py
+### def2.py
 
-+ 配列の合計値を求める`sum`関数を定義します。
-+ `sum`関数の引数に`$prices`を指定して呼び出します。
-+ `sum`関数の戻り値を`$result`に代入します。
-
-
-```python
-<?python
-function sum($array)
-{
-  $total = 0;
-  for ($i = 0; $i < count($array); $i++) {
-    $total += $array[$i];
-  }
-  return $total;
-}
-
-$prices = [1000, 2000, 3000];
-$result = sum($prices);
-echo $result;
-```
-
-### 実行
-
-```
-> python func2.py
-6000
-```
-
----
-
-
-### func3.py
-
-+ 指定した回数"Hello"と出力する`hello`関数を定義します。
-+ `hello`関数の引数に`5`を指定して呼び出します。
++ 引数で受け取った回数`"Hello"`と出力する`hello`関数を定義します。
++ `hello`関数の引数`repeat`に`5`を指定して呼び出します。
 + `hello`関数の戻り値はありません。
 
-
 ```python
-<?python
-function hello($repeat)
-{
-  for ($i = 0; $i < $repeat; $i++) {
-    echo "Hello";
-  }
-}
+def hello(repeat):
+  for i in range(repeat):
+    print("Hello")
 
-hello(5);
+hello(5)
 ```
+
+> 戻り値を返さない関数を定義できます。
 
 ### 実行
 
 ```
-> python func3.py
-HelloHelloHelloHelloHello
+$ python def2.py
+Hello
+Hello
+Hello
+Hello
+Hello
 ```
+
 
 ---
 
-### func4.py
+### def3.py
 
-+ 現在の年を取得する`get_year`関数を定義します。
-+ `get_year`関数を引数なしで呼び出します。
-+ `get_year`関数の戻り値を`$year`に代入します。
++ ランダムな要素数を持つリストを返却する`random_list`関数を定義します。
++ `random_list`関数は引数がありません。
++ `hello_world`関数は戻り値にランダムな要素数を持つリストを返します。
 
 
 ```python
-<?python
-function get_year()
-{
-  return date('Y');
-}
+from random import randint
 
-$year = get_year();
-echo $year;
+def random_list():
+  size = randint(1, 9)
+  return list(range(size))
+
+list = random_list()
+print(list)
 ```
+
+> 引数を受け取らない関数を定義できます。
 
 ### 実行
 
 ```
-> python func4.py
-2019
+$ python def3.py
+[0, 1, 2, 3, 4, 5, 6, 7]
 ```
+
+> 実行するたびにリストの要素数が変化します。
 
 ---
 
-### func5.py
+### def4.py
 
-+ "Hello World!"を出力する`hello_world`関数を定義します。
++ `"Hello World!"`を出力する`hello_world`関数を定義します。
 + `hello_world`関数を引数なしで呼び出します。
 + `hello_world`関数の戻り値はありません。
 
-
 ```python
-<?python
-function hello_world()
-{
-  echo "Hello World!";
-}
+def hello_world():
+  print("Hello World!")
 
-hello_world();
+hello_world()
 ```
+
+> 引数も戻り値もない関数を定義できます。
 
 ### 実行
 
 ```
-> python func5.py
+$ python def4.py 
 Hello World!
 ```
 
 ---
 
-### func6.py
+### def5.py
 
-+ 再帰的に値を出力する`recursion`関数を定義します。
-+ `recursion`関数の引数に`1`を指定して呼び出します。
-+ `recursion`関数の戻り値はありません。
++ Pythonの関数は引数にデフォルト値を定義できます。
 
 ```python
-<?python
-function recursion($a)
-{
-    if ($a < 10) {
-        echo $a . python_EOL;
-        recursion($a + 1);
-    }
-}
+def hello_world(upcase=False, repeat=1):
+  for i in range(repeat):
+    if upcase:
+      print("HELLO WORLD!")
+    else:
+      print("Hello World!")
 
-recursion(1);
+hello_world()
+hello_world(True)
+hello_world(False, 3)
+```
+
+> hello_world関数の2つの引数upcase、repeatはデフォルト値が定義されています。これにより、関数呼び出し時に引数を省略することができます。
+
+### 実行
+
+```
+$ python def5.py
+Hello World!
+HELLO WORLD!
+Hello World!
+Hello World!
+Hello World!
+```
+
+---
+
+### def6.py
+
++ 再帰的に値を出力する`recursion`関数を定義します。
++ `recursion`関数の中で再度`recursion`関数を呼び出すことができます。
++ このような関数呼び出しを再帰呼び出しと呼びます。
+
+```python
+def recursion(x):
+  if x < 10:
+    print(x)
+    recursion(x + 1)
+
+recursion(1)
 ```
 
 > recursion関数は再帰的な関数です。
@@ -177,12 +194,6 @@ recursion(1);
 
 ---
 
-### 考察
-
-+ [ユーザ定義ー関数](https://www.py.net/manual/ja/functions.user-defined.py)
-
----
-
 ### 演習
 
-+ [エクササイズ - 関数 - ユーザ定義関数](ex/11_python_ex.md)
++ [エクササイズ - 関数の定義](ex/10_basic_ex.md)
