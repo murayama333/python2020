@@ -1,4 +1,4 @@
-ages = [22, 20, 25, 20, 18]
+ages = (35, 42, 67, 34, 46)
 total = 0
 for age in ages:
   total = total + age
