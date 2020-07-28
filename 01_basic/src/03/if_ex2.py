@@ -1,7 +1,6 @@
-print("USER ID: ", end="")
-id = input()
+user_id = input("USER ID: ")
 
-if id == "Alice" or id == "Bob":
-  print("Success")
+if user_id == "Alice" or user_id == "Bob":
+    print("Success")
 else:
-  print("Error")
+    print("Error")

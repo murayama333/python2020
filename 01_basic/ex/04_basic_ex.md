@@ -20,8 +20,8 @@ $ python while_ex1.py
 ```python
 i = 1
 while ???:
-  print(i)
-  ???
+    print(i)
+    ???
 ```
 
 ---

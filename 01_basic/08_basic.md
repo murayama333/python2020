@@ -1,4 +1,4 @@
-# タプル
+# データ構造 - タプル
 
 ### tuple1.py
 
@@ -87,7 +87,7 @@ $ python tuple2.py
 ```python
 cities = ("Osaka", "Sakai", "Higashiosaka")
 for city in cities:
-  print(city)
+    print(city)
 ```
 
 ### 実行
@@ -130,4 +130,4 @@ TypeError: 'tuple' object does not support item assignment
 
 ### 演習
 
-+ [エクササイズ - タプル](ex/08_basic_ex.md)
++ [エクササイズ - データ構造 - タプル](ex/08_basic_ex.md)

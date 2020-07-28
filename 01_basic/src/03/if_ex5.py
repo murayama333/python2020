@@ -1,9 +1,5 @@
-print("PRICE:", end="")
-price = int(input())
+price = int(input("PRICE: "))
 
-point = price / 500
-point = int(point)
-
+point = price // 500
 if point > 0:
-  print("POINT:", end="")
-  print(point)
+    print("POINT: ", point)

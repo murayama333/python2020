@@ -1,4 +1,4 @@
-# エクササイズ - ディクショナリ
+# エクササイズ - データ構造 - ディクショナリ
 
 ## dict_ex1.py
 
@@ -46,6 +46,8 @@ Cherry
 
 ```python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
+for key in fruits.values():
+    print(key)
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -119,10 +121,10 @@ fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 
 ```
 $ python dict_ex6.py
-200.0
+200
 ```
 
-> ディクショナリの要素の平均値を出力します。
+> ディクショナリの要素の平均値を出力します。小数点以下は切り捨てとします。
 
 ---
 
@@ -133,9 +135,9 @@ $ python dict_ex6.py
 
 ```python
 fruits = {
-  "Apple": {"price": 100, "color": "Red"},
-  "Banana": {"price": 200, "color": "Yellow"},
-  "Cherry": {"price": 300, "color": "Red"},
+    "Apple": {"price": 100, "color": "Red"},
+    "Banana": {"price": 200, "color": "Yellow"},
+    "Cherry": {"price": 300, "color": "Red"},
 }
 ```
 
@@ -144,26 +146,25 @@ fruits = {
 ### 実行結果
 
 ```
-> php dict_ex5.py
-Apple : 100
-Cherry : 300
+$ python dict_ex7.py
+Apple
+Cherry
 ```
 
-> colorが"Red"のものだけ出力します。
+> `color`キーの値が`"Red"`のものだけ出力します。
 
 ### ヒント
 
 ```python
 fruits = {
-  "Apple": {"price": 100, "color": "Red"},
-  "Banana": {"price": 200, "color": "Yellow"},
-  "Cherry": {"price": 300, "color": "Red"},
+    "Apple": {"price": 100, "color": "Red"},
+    "Banana": {"price": 200, "color": "Yellow"},
+    "Cherry": {"price": 300, "color": "Red"},
 }
 
-for key, value in fruits.???():
-  if ??? == ???:
-    print(key)
-
+for key, value in fruits.???:
+    if ??? == ???:
+        print(key)
 ```
 
 ---
@@ -175,9 +176,9 @@ for key, value in fruits.???():
 
 ```python
 fruits = {
-  "Apple": {"price": 100, "color": "Red"},
-  "Banana": {"price": 200, "color": "Yellow"},
-  "Cherry": {"price": 300, "color": "Red"},
+    "Apple": {"price": 100, "color": "Red"},
+    "Banana": {"price": 200, "color": "Yellow"},
+    "Cherry": {"price": 300, "color": "Red"},
 }
 ```
 
@@ -186,10 +187,10 @@ fruits = {
 ### 実行結果
 
 ```
-> php dict_ex6.py
+$ python dict_ex8.py
 400
 ```
 
-> "red"の合計値400を出力します。
+> `color`キーの値が`"Red"`の合計値`400`を出力します。
 
 ---

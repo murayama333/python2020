@@ -1,9 +1,7 @@
-print("USER ID: ", end="")
-id = input()
-print("PASSWORD: ", end="")
-password = input()
+user_id = input("USER ID: ")
+password = input("PASSWORD: ")
 
-if id == "Alice" and password == "pass":
-  print("Success")
+if user_id == "Alice" and password == "pass":
+    print("Success")
 else:
-  print("Error")
+    print("Error")

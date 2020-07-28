@@ -1,4 +1,4 @@
-# リスト
+# データ構造 - リスト
 
 ### list1.py
 
@@ -36,7 +36,7 @@ print(cities)
 ### 実行
 
 ```
-$ python list1_2.py 
+$ python list1_2.py
 ['Osaka', 'Sakai', 'Higashiosaka']
 ```
 
@@ -92,7 +92,7 @@ $ python list2.py
 cities = ["Osaka", "Sakai", "Higashiosaka"]
 length = len(cities)
 for i in range(length):
-  print(cities[i])
+    print(cities[i])
 ```
 
 ### 実行
@@ -111,13 +111,13 @@ Higashiosaka
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
 for city in cities:
-  print(city)
+    print(city)
 ```
 
 ### 実行
 
 ```
-$ python list3.py
+$ python list3_2.py
 Osaka
 Sakai
 Higashiosaka
@@ -175,4 +175,4 @@ $ python list5.py
 
 ### 演習
 
-+ [エクササイズ - リスト](ex/06_basic_ex.md)
++ [エクササイズ - データ構造 - リスト](ex/06_basic_ex.md)

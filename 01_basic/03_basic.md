@@ -6,7 +6,7 @@
 point = 80
 
 if point >= 50:
-  print("Good")
+    print("Good")
 ```
 
 ### 実行
@@ -24,9 +24,9 @@ Good
 
 ```
 if 条件式:
-  条件式がTrueの場合の処理
+    条件式がTrueの場合の処理
 else:
-  条件式がFalseの場合の処理
+    条件式がFalseの場合の処理
 ```
 
 ---
@@ -37,9 +37,9 @@ else:
 point = 40
 
 if point >= 50:
-  print("Good")
+    print("Good")
 else:
-  print("Bad")
+    print("Bad")
 ```
 
 ### 実行
@@ -57,9 +57,9 @@ Bad
 
 ```
 if 条件式:
-  条件式がTrueの場合の処理
+    条件式がTrueの場合の処理
 else:
-  条件式がFalseの場合の処理
+    条件式がFalseの場合の処理
 ```
 
 ---
@@ -71,11 +71,11 @@ else:
 point = 80
 
 if point >= 90:
-  print("Great")
+    print("Great")
 elif point >= 50:
-  print("Good")
+    print("Good")
 else:
-  print("Bad")
+    print("Bad")
 ```
 
 ### 実行
@@ -93,11 +93,11 @@ Good
 
 ```
 if 条件式1:
-  条件式1がTrueの場合の処理
+    条件式1がTrueの場合の処理
 elif 条件式2:
-  条件式2がTrueの場合の処理
+    条件式2がTrueの場合の処理
 else:
-  それ以外（条件式1,2がFalse）の場合の処理
+    それ以外（条件式1,2がFalse）の場合の処理
 ```
 
 ---
@@ -110,9 +110,9 @@ math = 85
 english = 90
 
 if math >= 80 and english >= 80:
-  print("Good")
+    print("Good")
 else:
-  print("Bad")
+    print("Bad")
 ```
 
 ### 実行
@@ -130,7 +130,7 @@ Good
 
 ```
 if 条件式1 論理演算子 条件式2:
-  条件が成立した場合の処理
+    条件が成立した場合の処理
 ```
 
 ---

@@ -1,0 +1,6 @@
+print(": Colon")
+print("; Semi Colon")
+print("' Single Quote")
+print("\" Double Quote")
+print("\\t Tab")
+print("\\n Line Feed")

@@ -19,7 +19,7 @@ $ python for_ex1.py
 
 ```python
 for i in range(???, ???):
-  print(i)
+    print(i)
 ```
 
 ---
@@ -41,9 +41,9 @@ $ python for_ex2.py
 
 ### ヒント
 
-```
+```python
 for i in range(???, ???, ???):
-  print(i)
+    print(i)
 ```
 
 ---

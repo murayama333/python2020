@@ -4,7 +4,7 @@
 
 ```python
 for i in range(5):
-  print("*", end="")
+    print("*", end="")
 ```
 
 ### 実行
@@ -24,7 +24,7 @@ $ python for1.py
 
 ```
 for カウンター変数 in range関数:
-  反復処理
+    反復処理
 ```
 
 ---
@@ -34,7 +34,7 @@ for カウンター変数 in range関数:
 ```python
 total = 0
 for i in range(1, 11):
-  total += i
+    total += i
 print(total)
 ```
 
@@ -58,9 +58,9 @@ $ python for2.py
 
 ```python
 for i in range(1, 10):
-  for j in range(1, 10):
-    print(i * j, end=" ")
-  print()
+    for j in range(1, 10):
+        print(i * j, end=" ")
+    print()
 ```
 
 ### 実行
@@ -88,13 +88,13 @@ $ python for3.py
 
 ```python
 for i in range(1, 10):
-  for j in range(1, 10):
-    if i == 5:
-      break
-    elif j == 5:
-      continue
-    print(i * j, end=" ")
-  print()
+    for j in range(1, 10):
+        if i == 5:
+            break
+        elif j == 5:
+            continue
+        print(i * j, end=" ")
+    print()
 ```
 
 ### 実行
