@@ -6,16 +6,17 @@
 
 ### 実行結果
 
-```
+``` 
 $ python hello_ex1.py
 Hello Python
 ```
 
 ### ヒント
 
-```python
+``` python
 print(???)
 ```
+
 ---
 
 ## hello_ex2.py
@@ -24,7 +25,7 @@ print(???)
 
 ### 実行結果
 
-```
+``` 
 $ python hello_ex2.py
 Hello Python
 Hello HTML
@@ -33,14 +34,13 @@ Hello CSS
 
 ---
 
-
 ## hello_ex3.py
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
-```
+``` 
 $ python hello_ex3.py
 1
 2

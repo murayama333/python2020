@@ -4,7 +4,7 @@
 
 次の連想配列があります。
 
-```python
+``` python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 ```
 
@@ -12,7 +12,7 @@ fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex1.py
 200
 ```
@@ -23,7 +23,7 @@ $ python dict_ex1.py
 
 次の連想配列があります。
 
-```python
+``` python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 ```
 
@@ -31,7 +31,7 @@ fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex2.py
 Apple
 Banana
@@ -44,7 +44,7 @@ Cherry
 
 次の連想配列があります。
 
-```python
+``` python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 for key in fruits.values():
     print(key)
@@ -54,7 +54,7 @@ for key in fruits.values():
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex3.py
 100
 200
@@ -67,7 +67,7 @@ $ python dict_ex3.py
 
 次のディクショナリがあります。
 
-```python
+``` python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 ```
 
@@ -75,7 +75,7 @@ fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex4.py
 3
 ```
@@ -84,12 +84,11 @@ $ python dict_ex4.py
 
 ---
 
-
 ## dict_ex5.py
 
 次のディクショナリがあります。
 
-```python
+``` python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 ```
 
@@ -97,7 +96,7 @@ fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex5.py
 600
 ```
@@ -106,12 +105,11 @@ $ python dict_ex5.py
 
 ---
 
-
 ## dict_ex6.py
 
 次のディクショナリがあります。
 
-```python
+``` python
 fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 ```
 
@@ -119,7 +117,7 @@ fruits = {"Apple": 100, "Banana": 200, "Cherry": 300}
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex6.py
 200
 ```
@@ -128,12 +126,11 @@ $ python dict_ex6.py
 
 ---
 
-
 ## dict_ex7.py
 
 次のディクショナリがあります。
 
-```python
+``` python
 fruits = {
     "Apple": {"price": 100, "color": "Red"},
     "Banana": {"price": 200, "color": "Yellow"},
@@ -145,17 +142,17 @@ fruits = {
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex7.py
 Apple
 Cherry
 ```
 
-> `color`キーの値が`"Red"`のものだけ出力します。
+> `color` キーの値が `"Red"` のものだけ出力します。
 
 ### ヒント
 
-```python
+``` python
 fruits = {
     "Apple": {"price": 100, "color": "Red"},
     "Banana": {"price": 200, "color": "Yellow"},
@@ -169,12 +166,11 @@ for key, value in fruits.???:
 
 ---
 
-
 ## dict_ex8.py
 
 次のディクショナリがあります。
 
-```python
+``` python
 fruits = {
     "Apple": {"price": 100, "color": "Red"},
     "Banana": {"price": 200, "color": "Yellow"},
@@ -186,11 +182,11 @@ fruits = {
 
 ### 実行結果
 
-```
+``` 
 $ python dict_ex8.py
 400
 ```
 
-> `color`キーの値が`"Red"`の合計値`400`を出力します。
+> `color` キーの値が `"Red"` の合計値 `400` を出力します。
 
 ---

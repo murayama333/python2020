@@ -4,7 +4,7 @@
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -12,7 +12,7 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex1.py 
 25
 ```
@@ -21,12 +21,11 @@ $ python list_ex1.py
 
 ---
 
-
 ## list_ex2.py
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -34,7 +33,7 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex2.py 
 22
 20
@@ -45,7 +44,7 @@ $ python list_ex2.py
 
 ### ヒント
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 for ??? in ???:
     print(???)
@@ -57,7 +56,7 @@ for ??? in ???:
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -65,7 +64,7 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex3.py 
 5
 ```
@@ -74,12 +73,11 @@ $ python list_ex3.py
 
 ---
 
-
 ## list_ex4.py
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -87,7 +85,7 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex4.py
 22
 20
@@ -102,7 +100,7 @@ $ python list_ex4.py
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -110,7 +108,7 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex5.py
 22
 25
@@ -121,7 +119,7 @@ $ python list_ex5.py
 
 ### ヒント
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 
 for i in range(???, ???, ???):
@@ -134,7 +132,7 @@ for i in range(???, ???, ???):
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -142,7 +140,7 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex6.py
 105
 ```
@@ -151,7 +149,7 @@ $ python list_ex6.py
 
 ### ヒント
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 total = 0
 for age in ages:
@@ -165,7 +163,7 @@ print(total)
 
 次のリストがあります。
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 ```
 
@@ -173,17 +171,16 @@ ages = [22, 20, 25, 20, 18]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex7.py
 25
 ```
 
 > リストの要素の最大値を出力します。
 
-
 ### ヒント
 
-```python
+``` python
 ages = [22, 20, 25, 20, 18]
 
 max = 0
@@ -200,7 +197,7 @@ print(max)
 
 次のリストがあります。
 
-```python
+``` python
 names = ["Alice", "Bob"]
 ```
 
@@ -208,17 +205,16 @@ names = ["Alice", "Bob"]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex8.py
 ['Alice', 'Bob', 'Charlie']
 ```
 
 > "Charlie"を追加します。
 
-
 ### ヒント
 
-```python
+``` python
 names = ["Alice", "Bob"]
 
 # TODO append "Charlie"
@@ -232,7 +228,7 @@ print(names)
 
 次のリストがあります。
 
-```python
+``` python
 names = ["Alice", "Bob"]
 ```
 
@@ -240,7 +236,7 @@ names = ["Alice", "Bob"]
 
 ### 実行結果
 
-```
+``` 
 $ python list_ex9.py 
 ['Bob', 'Alice']
 ```
@@ -249,7 +245,7 @@ $ python list_ex9.py
 
 ### ヒント
 
-```python
+``` python
 names = ["Alice", "Bob"]
 
 # TODO change names[0] names[1]
@@ -258,4 +254,3 @@ print(names)
 ```
 
 ---
-

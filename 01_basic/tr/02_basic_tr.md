@@ -4,7 +4,7 @@
 
 次のプログラムがあります。
 
-```python
+``` python
 coffee = 300
 bread = 200
 ```
@@ -13,7 +13,7 @@ bread = 200
 
 ### 実行結果
 
-```
+``` 
 COFFEE: 300
 BREAD: 200
 TOTAL: 500
@@ -25,7 +25,7 @@ TOTAL: 500
 
 次のプログラムがあります。
 
-```python
+``` python
 coffee = 300
 apple_tea = 400
 orange_juice = 500
@@ -35,7 +35,7 @@ orange_juice = 500
 
 ### 実行結果
 
-```
+``` 
 COFFEE: 300
 APPLE_TEA: 400
 ORANGE_JUICE: 500
@@ -49,18 +49,18 @@ AVERAGE: 400
 
 次のプログラムがあります。
 
-```python
+``` python
 name = input("Name: ")
 age = input("Age: ")
 ```
 
-> `input`関数は標準入力（キーボードなど）から値を受け取ります。
+> `input` 関数は標準入力（キーボードなど）から値を受け取ります。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
-```
+``` 
 Name: Alex
 Age: 20
 Name: Alex Age: 20
@@ -72,22 +72,22 @@ Name: Alex Age: 20
 
 次のプログラムがあります。
 
-```python
+``` python
 price = input("Price: ")
 ```
 
-> `input`関数は戻り値に文字列型（`str`型）データを返します。
+> `input` 関数は戻り値に文字列型（ `str` 型）データを返します。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
-```
+``` 
 Price: 100
 <class 'str'>
 ```
 
-> `type`関数で変数`price`のデータ型を出力します。
+> `type` 関数で変数 `price` のデータ型を出力します。
 
 ---
 
@@ -95,20 +95,20 @@ Price: 100
 
 次のプログラムがあります。
 
-```python
+``` python
 price_str = input("Price: ")
 number_str = input("Number: ")
 price = int(price_str)
 number = int(number_str)
 ```
 
-> `int`関数は文字列型（`str`型）データを整数型（`int`型）データに変換します。
+> `int` 関数は文字列型（ `str` 型）データを整数型（ `int` 型）データに変換します。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
-```
+``` 
 Price: 100
 Number: 3
 Total: 300
@@ -120,7 +120,7 @@ Total: 300
 
 次のプログラムがあります。
 
-```python
+``` python
 x = int(input("X: "))
 y = int(input("Y: "))
 ```
@@ -129,7 +129,7 @@ y = int(input("Y: "))
 
 ### 実行結果
 
-```
+``` 
 X: 10
 Y: 5
 X + Y = 15

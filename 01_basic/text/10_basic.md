@@ -2,39 +2,38 @@
 
 ### lc1.py
 
-+ リストの内包表記とは、リストを簡単に作成する仕組み
-+ `[式 for 変数 in イテレート可能オブジェクト]`という文法で記述する
-+ イテレート可能オブジェクトには、リストやタプル、ディクショナリ、文字列などがある
+* リストの内包表記とは、リストを簡単に作成する仕組み
+* `[式 for 変数 in イテレート可能オブジェクト]` という文法で記述する
+* イテレート可能オブジェクトには、リストやタプル、ディクショナリ、文字列などがある
 
-```python
+``` python
 numbers = [i for i in range(10)]
 print(numbers)
 ```
 
 ### 実行
 
-```
+``` 
 $ python lc1.py
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 ### 参考
 
-> `lc1.py`と同等のコードは次のようになります。
+> `lc1.py` と同等のコードは次のようになります。
 
-```python
+``` python
 numbers = []
 for i in range(10):
     numbers.append(i)
 print(numbers)
 ```
 
-
 ### lc2.py
 
-+ リストの内包表記を使って既存のリストを加工して新たなリストを生成できる
+* リストの内包表記を使って既存のリストを加工して新たなリストを生成できる
 
-```python
+``` python
 numbers = [1, 2, 3, 4, 5]
 numbers2 = [i * 2 for i in numbers]
 print(numbers2)
@@ -42,16 +41,16 @@ print(numbers2)
 
 ### 実行
 
-```
+``` 
 $ python lc2.py
 [2, 4, 6, 8, 10]
 ```
 
 ### tuple3.py
 
-+ リストの内包表記を使って既存のリストをフィルタリングして新たなリストを生成できる
+* リストの内包表記を使って既存のリストをフィルタリングして新たなリストを生成できる
 
-```python
+``` python
 numbers = [1, 2, 3, 4, 5]
 numbers2 = [i for i in numbers if i % 2 == 0]
 print(numbers2)
@@ -59,7 +58,7 @@ print(numbers2)
 
 ### 実行
 
-```
+``` 
 $ python lc3.py
 [2, 4]
 ```
@@ -68,9 +67,9 @@ $ python lc3.py
 
 ### lc4.py
 
-+ 内包表記内に複数の`for`文を記述できる
+* 内包表記内に複数の `for` 文を記述できる
 
-```python
+``` python
 numbers1 = [1, 2, 3]
 numbers2 = [10, 20, 30]
 numbers3 = [i * j for i in numbers1 for j in numbers2]
@@ -79,16 +78,16 @@ print(numbers3)
 
 ### 実行
 
-```
+``` 
 $ python lc4.py
 [10, 20, 30, 20, 40, 60, 30, 60, 90]
 ```
 
 ### 参考
 
-> `lc4.py`と同等のコードは次のようになります。
+> `lc4.py` と同等のコードは次のようになります。
 
-```python
+``` python
 numbers1 = [1, 2, 3]
 numbers2 = [10, 20, 30]
 numbers3 = []
@@ -98,7 +97,6 @@ for i in numbers1:
 print(numbers3)
 ```
 
-
 ### 演習
 
-+ [エクササイズ - リストの内包表記](ex/08_basic_ex.md)
+* [エクササイズ - リストの内包表記](../ex/08_basic_ex.md)

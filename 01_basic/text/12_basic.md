@@ -2,11 +2,11 @@
 
 ### def1.py
 
-+ 足し算をする`add`関数を定義する
-+ `add`関数は引数に`x`と`y`の2つを受け取る
-+ `add`関数は戻り値`x`と`y`の加算結果を返す
+* 足し算をする `add` 関数を定義する
+* `add` 関数は引数に `x` と `y` の2つを受け取る
+* `add` 関数は戻り値 `x` と `y` の加算結果を返す
 
-```python
+``` python
 def add(x, y):
   z = x + y
   return z
@@ -21,35 +21,34 @@ print(c)
 
 #### 関数定義
 
-+ 関数を定義するにはdefキーワードを使う
-+ `def`キーワードの後に関数名と引数を定義する
-+ 関数の戻り値は`return`キーワードで指定する
+* 関数を定義するにはdefキーワードを使う
+* `def` キーワードの後に関数名と引数を定義する
+* 関数の戻り値は `return` キーワードで指定する
 
-```
+``` 
 def 関数名(引数):
   処理
   return 戻り値
 ```
 
-> Pythonは関数の処理ブロックもインデントで表現します。引数の後に`:`を付けることを忘れないようにしてください。
+> Pythonは関数の処理ブロックもインデントで表現します。引数の後に `:` を付けることを忘れないようにしてください。
 
 ### 実行
 
-```
+``` 
 $ python def1.py 
 100
 ```
 
 ---
 
-
 ### def2.py
 
-+ 引数で受け取った回数`"Hello"`と出力する`hello`関数を定義する
-+ `hello`関数の引数`repeat`に`5`を指定して呼び出す
-+ `hello`関数の戻り値はない
+* 引数で受け取った回数 `"Hello"` と出力する `hello` 関数を定義する
+* `hello` 関数の引数 `repeat` に `5` を指定して呼び出す
+* `hello` 関数の戻り値はない
 
-```python
+``` python
 def hello(repeat):
   for i in range(repeat):
     print("Hello")
@@ -61,7 +60,7 @@ hello(5)
 
 ### 実行
 
-```
+``` 
 $ python def2.py
 Hello
 Hello
@@ -70,17 +69,15 @@ Hello
 Hello
 ```
 
-
 ---
 
 ### def3.py
 
-+ ランダムな要素数を持つリストを返却する`random_list`関数を定義する
-+ `random_list`関数は引数を受けとらない
-+ `hello_world`関数は戻り値にランダムな要素数を持つリストを返す
+* ランダムな要素数を持つリストを返却する `random_list` 関数を定義する
+* `random_list` 関数は引数を受けとらない
+* `hello_world` 関数は戻り値にランダムな要素数を持つリストを返す
 
-
-```python
+``` python
 from random import randint
 
 def random_list():
@@ -95,7 +92,7 @@ print(list)
 
 ### 実行
 
-```
+``` 
 $ python def3.py
 [0, 1, 2, 3, 4, 5, 6, 7]
 ```
@@ -106,11 +103,11 @@ $ python def3.py
 
 ### def4.py
 
-+ `"Hello World!"`を出力する`hello_world`関数を定義する
-+ `hello_world`関数を引数なしで呼び出す
-+ `hello_world`関数の戻り値はない
+* `"Hello World!"` を出力する `hello_world` 関数を定義する
+* `hello_world` 関数を引数なしで呼び出す
+* `hello_world` 関数の戻り値はない
 
-```python
+``` python
 def hello_world():
   print("Hello World!")
 
@@ -121,7 +118,7 @@ hello_world()
 
 ### 実行
 
-```
+``` 
 $ python def4.py 
 Hello World!
 ```
@@ -130,9 +127,9 @@ Hello World!
 
 ### def5.py
 
-+ Pythonの関数は引数にデフォルト値を定義できる
+* Pythonの関数は引数にデフォルト値を定義できる
 
-```python
+``` python
 def hello_world(upcase=False, repeat=1):
   for i in range(repeat):
     if upcase:
@@ -149,7 +146,7 @@ hello_world(False, 3)
 
 ### 実行
 
-```
+``` 
 $ python def5.py
 Hello World!
 HELLO WORLD!
@@ -162,11 +159,11 @@ Hello World!
 
 ### def6.py
 
-+ 再帰的に値を出力する`recursion`関数を定義する
-+ `recursion`関数の中で再度`recursion`関数を呼び出すことができる
-+ このような関数呼び出しを再帰呼び出しと呼ぶ
+* 再帰的に値を出力する `recursion` 関数を定義する
+* `recursion` 関数の中で再度 `recursion` 関数を呼び出すことができる
+* このような関数呼び出しを再帰呼び出しと呼ぶ
 
-```python
+``` python
 def recursion(x):
   if x < 10:
     print(x)
@@ -179,7 +176,7 @@ recursion(1)
 
 ### 実行
 
-```
+``` 
 > python func6.py
 1
 2
@@ -196,4 +193,4 @@ recursion(1)
 
 ### 演習
 
-+ [エクササイズ - 関数の定義](ex/10_basic_ex.md)
+* [エクササイズ - 関数の定義](../ex/10_basic_ex.md)
