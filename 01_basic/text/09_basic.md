@@ -1,10 +1,6 @@
 # データ構造 - タプル
 
-### tuple1.py
-
-* タプルは、リストと同じように一つの変数で複数のデータを管理する仕組みで
-* 要素には先頭から要素番号（0から始まる番号）が割り振られている
-* タプルはリストと異なり、一度作成すると要素の追加、入れ替え、削除ができない
+### `tuple1.py`
 
 ``` python
 cities = ("Osaka", "Sakai", "Higashiosaka")
@@ -22,9 +18,14 @@ Sakai
 Higashiosaka
 ```
 
-### tuple1_2.py
+### 解説
 
-* Pythonのタプルはprint関数で出力するとタプル全体が表示される
+* タプルは、リストと同じように一つの変数で複数のデータを管理する仕組みで
+* 要素には先頭から要素番号（0から始まる番号）が割り振られている
+* タプルはリストと異なり、一度作成すると要素の追加、入れ替え、削除ができない
+
+
+### `tuple1_2.py`
 
 ``` python
 cities = ("Osaka", "Sakai", "Higashiosaka")
@@ -38,9 +39,12 @@ $ python tuple1_2.py
 ('Osaka', 'Sakai', 'Higashiosaka')
 ```
 
-### tuple1_3.py
+### 解説
 
-* Pythonのタプルは `:` を使ったスライス指定が可能
+* Pythonのタプルはprint関数で出力するとタプル全体が表示される
+
+
+### `tuple1_3.py`
 
 ``` python
 cities = ("Osaka", "Sakai", "Higashiosaka")
@@ -58,11 +62,13 @@ $ python tuple1_3.py
 ('Osaka', 'Sakai')
 ```
 
+### 解説
+
+* Pythonのタプルは `:` を使ったスライス指定が可能
+
 ---
 
-### tuple2.py
-
-* タプルの要素数を求めるには `len` 関数を使う
+### `tuple2.py`
 
 ``` python
 cities = ("Osaka", "Sakai", "Higashiosaka")
@@ -77,11 +83,14 @@ $ python tuple2.py
 3
 ```
 
+### 解説
+
+* タプルの要素数を求めるには `len` 関数を使う
+
 ---
 
-### tuple3.py
+### `tuple3.py`
 
-* タプルは `for` 文を使ってループで処理できる
 
 ``` python
 cities = ("Osaka", "Sakai", "Higashiosaka")
@@ -98,11 +107,13 @@ Sakai
 Higashiosaka
 ```
 
+### 解説
+
+* タプルは `for` 文を使ってループで処理できる
+
 ---
 
-### tuple4.py
-
-* タプルは一度作成すると要素の追加、入れ替え、削除ができる
+### `tuple4.py`
 
 ``` python
 cities = ("Osaka", "Sakai", "Higashiosaka")
@@ -124,6 +135,10 @@ TypeError: 'tuple' object does not support item assignment
 ```
 
 > 既存のタプルに新たなオブジェクトを割り当てることはできません。
+
+### 解説
+
+* タプルは一度作成すると要素の追加、入れ替え、削除ができない
 
 ---
 

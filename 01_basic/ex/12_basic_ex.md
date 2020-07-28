@@ -12,7 +12,7 @@
 
 ``` python
 def subtract(x, y):
-  # TODO
+    # TODO
 
 a = 100
 b = 10
@@ -46,7 +46,7 @@ $ python def_ex1.py
 
 ``` python
 def exclaim(message):
-  # TODO
+    # TODO
 
 exclaim("Hello");
 

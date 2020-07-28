@@ -1,6 +1,6 @@
 # 制御構文 - 分岐構造 - if文
 
-### if1.py
+### `if1.py`
 
 ``` python
 point = 80
@@ -31,7 +31,7 @@ else:
 
 ---
 
-### if2.py
+### `if2.py`
 
 ``` python
 point = 40
@@ -64,7 +64,7 @@ else:
 
 ---
 
-### if3.py
+### `if3.py`
 
 ``` python
 point = 80
@@ -101,7 +101,7 @@ else:
 
 ---
 
-### if4.py
+### `if4.py`
 
 ``` python
 math = 85
@@ -133,7 +133,7 @@ if 条件式1 論理演算子 条件式2:
 
 ---
 
-### if5.py
+### `if5.py`
 
 ``` python
 a = 1

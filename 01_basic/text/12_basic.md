@@ -1,10 +1,6 @@
 # 関数 - 関数の定義
 
-### def1.py
-
-* 足し算をする `add` 関数を定義する
-* `add` 関数は引数に `x` と `y` の2つを受け取る
-* `add` 関数は戻り値 `x` と `y` の加算結果を返す
+### `def1.py`
 
 ``` python
 def add(x, y):
@@ -18,6 +14,19 @@ print(c)
 ```
 
 > 定義した関数は何度でも呼び出すことができます。
+
+### 実行
+
+``` 
+$ python def1.py 
+100
+```
+
+### 解説
+
+* 足し算をする `add` 関数を定義する
+* `add` 関数は引数に `x` と `y` の2つを受け取る
+* `add` 関数は戻り値 `x` と `y` の加算結果を返す
 
 #### 関数定義
 
@@ -33,20 +42,9 @@ def 関数名(引数):
 
 > Pythonは関数の処理ブロックもインデントで表現します。引数の後に `:` を付けることを忘れないようにしてください。
 
-### 実行
-
-``` 
-$ python def1.py 
-100
-```
-
 ---
 
-### def2.py
-
-* 引数で受け取った回数 `"Hello"` と出力する `hello` 関数を定義する
-* `hello` 関数の引数 `repeat` に `5` を指定して呼び出す
-* `hello` 関数の戻り値はない
+### `def2.py`
 
 ``` python
 def hello(repeat):
@@ -69,13 +67,15 @@ Hello
 Hello
 ```
 
+### 解説
+
+* 引数で受け取った回数 `"Hello"` と出力する `hello` 関数を定義する
+* `hello` 関数の引数 `repeat` に `5` を指定して呼び出す
+* `hello` 関数の戻り値はない
+
 ---
 
-### def3.py
-
-* ランダムな要素数を持つリストを返却する `random_list` 関数を定義する
-* `random_list` 関数は引数を受けとらない
-* `hello_world` 関数は戻り値にランダムな要素数を持つリストを返す
+### `def3.py`
 
 ``` python
 from random import randint
@@ -99,13 +99,15 @@ $ python def3.py
 
 > 実行するたびにリストの要素数が変化します。
 
+### 解説
+
+* ランダムな要素数を持つリストを返却する `random_list` 関数を定義する
+* `random_list` 関数は引数を受けとらない
+* `hello_world` 関数は戻り値にランダムな要素数を持つリストを返す
+
 ---
 
-### def4.py
-
-* `"Hello World!"` を出力する `hello_world` 関数を定義する
-* `hello_world` 関数を引数なしで呼び出す
-* `hello_world` 関数の戻り値はない
+### `def4.py`
 
 ``` python
 def hello_world():
@@ -123,11 +125,15 @@ $ python def4.py
 Hello World!
 ```
 
+### 解説
+
+* `"Hello World!"` を出力する `hello_world` 関数を定義する
+* `hello_world` 関数を引数なしで呼び出す
+* `hello_world` 関数の戻り値はない
+
 ---
 
-### def5.py
-
-* Pythonの関数は引数にデフォルト値を定義できる
+### `def5.py`
 
 ``` python
 def hello_world(upcase=False, repeat=1):
@@ -155,9 +161,13 @@ Hello World!
 Hello World!
 ```
 
+### 解説
+
+* Pythonの関数は引数にデフォルト値を定義できる
+
 ---
 
-### def6.py
+### `def6.py`
 
 * 再帰的に値を出力する `recursion` 関数を定義する
 * `recursion` 関数の中で再度 `recursion` 関数を呼び出すことができる

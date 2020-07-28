@@ -1,6 +1,6 @@
 # 制御構文 - 反復構造 - while文
 
-### while1.py
+### `while1.py`
 
 ``` python
 count = 0
@@ -32,7 +32,7 @@ while 条件式:
 
 ---
 
-### while2.py
+### `while2.py`
 
 ``` python
 total = 0
@@ -59,7 +59,7 @@ $ python while2.py
 
 ---
 
-### while3.py
+### `while3.py`
 
 ``` python
 i = 1
@@ -86,6 +86,8 @@ $ python while3.py
 8 16 24 32 40 48 56 64 72 
 9 18 27 36 45 54 63 72 81 
 ```
+
+### 解説
 
 * `while` 文の中に `while` 文を定義することもできる
 * このような入れ子構造をネストと呼ぶ

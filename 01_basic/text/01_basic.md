@@ -1,6 +1,6 @@
 # Hello Python!
 
-### hello.py
+### `hello.py`
 
 ``` python
 print("Hello World")
@@ -12,8 +12,6 @@ print("Hello World")
 $ python hello.py
 Hello World
 ```
-
----
 
 ### 解説
 

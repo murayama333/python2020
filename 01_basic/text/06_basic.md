@@ -1,12 +1,6 @@
 # データ構造 - リスト
 
-### list1.py
-
-* リストは一つの変数で複数のデータを管理する仕組み
-* リストに含まれる一つひとつのデータを要素と呼ぶ
-* 要素には先頭から要素番号（0から始まる番号）が割り振られている
-
-> 要素番号のことを添え字やインデックスなどと呼びます。
+### `list1.py`
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -24,9 +18,17 @@ Sakai
 Higashiosaka
 ```
 
-### list1_2.py
+### 解説
 
-* Pythonのリストはprint関数で出力するとリスト全体が表示される
+* リストは一つの変数で複数のデータを管理する仕組み
+* リストに含まれる一つひとつのデータを要素と呼ぶ
+* 要素には先頭から要素番号（0から始まる番号）が割り振られている
+
+> 要素番号のことを添え字やインデックスなどと呼びます。
+
+
+### `list1_2.py`
+
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -40,9 +42,12 @@ $ python list1_2.py
 ['Osaka', 'Sakai', 'Higashiosaka']
 ```
 
-### list1_3.py
+### 解説
 
-* Pythonのリストは `:` を使ったスライス指定が可能
+* Pythonのリストは`print`関数で出力するとリスト全体が表示される
+
+
+### `list1_3.py`
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -60,11 +65,13 @@ $ python list1_3.py
 ['Osaka', 'Sakai']
 ```
 
+### 解説
+
+* Pythonのリストは `:` を使ったスライス指定（範囲指定）が可能
+
 ---
 
-### list2.py
-
-* リストの要素数を求めるには `len` 関数を使う
+### `list2.py`
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -79,13 +86,13 @@ $ python list2.py
 3
 ```
 
+### 解説
+
+* リストの要素数を求めるには `len` 関数を使う
+
 ---
 
-### list3.py
-
-* リストは `for` 文を使ってループで処理できる
-* リストの要素番号に `for` 文のカウンター変数（一般的には `i` ）を使う
-* リストの要素番号は `0` から始まる点に注意する
+### `list3.py`
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -103,9 +110,13 @@ Sakai
 Higashiosaka
 ```
 
-### list3_2.py
+### 解説
 
-* for文の `in` 句にはリスト変数を指定できる
+* リストは `for` 文を使ってループで処理できる
+* リストの要素番号に `for` 文のカウンター変数（一般的には `i` ）を使う
+* リストの要素番号は `0` から始まる点に注意する
+
+### `list3_2.py`
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -122,13 +133,15 @@ Sakai
 Higashiosaka
 ```
 
+### 解説
+
+* for文の `in` 句にはリスト変数を指定できる
+
 > `list3.py` に比べて `list3_2.py` の方が一般的な書き方です。
 
 ---
 
-### list4.py
-
-* リスト変数のappendメソッドを使うことでリストに要素を追加できる
+### `list4.py`
 
 ``` python
 cities = []
@@ -146,11 +159,13 @@ $ python list4.py
 ['Osaka', 'Sakai', 'Higashiosaka']
 ```
 
+### 解説
+
+* リスト変数のappendメソッドを使うことでリストに要素を追加できる
+
 ---
 
-### list5.py
-
-* リストに対して要素番号を指定することで、リストの要素を更新できる
+### `list5.py`
 
 ``` python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -167,6 +182,10 @@ $ python list5.py
 ['Osaka', 'Sakai', 'Higashiosaka']
 ['Hirakata', 'Sakai', 'Higashiosaka']
 ```
+
+### 解説
+
+* リストに対して要素番号を指定することで、リストの要素を更新できる
 
 ---
 

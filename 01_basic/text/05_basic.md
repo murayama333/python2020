@@ -1,6 +1,6 @@
 # 制御構文 - 反復構造 - for文
 
-### for1.py
+### `for1.py`
 
 ``` python
 for i in range(5):
@@ -13,8 +13,6 @@ for i in range(5):
 $ python for1.py
 *****
 ```
-
----
 
 ### 解説
 
@@ -29,7 +27,7 @@ for カウンター変数 in range関数:
 
 ---
 
-### for2.py
+### `for2.py`
 
 ``` python
 total = 0
@@ -43,7 +41,6 @@ print(total)
 ``` 
 $ python for2.py 
 55
-
 ```
 
 ### 解説
@@ -54,7 +51,7 @@ $ python for2.py
 
 ---
 
-### for3.py
+### `for3.py`
 
 ``` python
 for i in range(1, 10):
@@ -84,7 +81,7 @@ $ python for3.py
 
 ---
 
-### for4.py
+### `for4.py`
 
 ``` python
 for i in range(1, 10):

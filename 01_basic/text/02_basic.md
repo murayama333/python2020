@@ -1,6 +1,6 @@
 # 変数と演算子
 
-### var1.py
+### `var1.py`
 
 ``` python
 price = 200
@@ -28,7 +28,7 @@ TOTAL PRICE
 
 ---
 
-### var2.py
+### `var2.py`
 
 ``` python
 count = 1
@@ -52,7 +52,7 @@ $ python var2.py
 
 ---
 
-### var3.py
+### `var3.py`
 
 ``` 
 number = 10
@@ -61,6 +61,14 @@ n = number < 0
 
 print(p)
 print(n)
+```
+
+### 実行
+
+``` 
+$ python var3.py
+True
+False
 ```
 
 ### 解説
@@ -77,7 +85,7 @@ print(n)
 
 ---
 
-### var4.py
+### `var4.py`
 
 ``` python
 a = 1
