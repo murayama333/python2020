@@ -1,6 +1,6 @@
 # エクササイズ - データ構造 - リスト
 
-## list_ex1.php
+## list_ex1.py
 
 次のリストがあります。
 
@@ -22,7 +22,7 @@ $ python list_ex1.py
 ---
 
 
-## list_ex2.php
+## list_ex2.py
 
 次のリストがあります。
 
@@ -53,7 +53,7 @@ for ??? in ???:
 
 ---
 
-## list_ex3.php
+## list_ex3.py
 
 次のリストがあります。
 
@@ -75,7 +75,7 @@ $ python list_ex3.py
 ---
 
 
-## list_ex4.php
+## list_ex4.py
 
 次のリストがあります。
 
@@ -98,7 +98,7 @@ $ python list_ex4.py
 
 ---
 
-## list_ex5.php
+## list_ex5.py
 
 次のリストがあります。
 
@@ -130,7 +130,7 @@ for i in range(???, ???, ???):
 
 ---
 
-## list_ex6.php
+## list_ex6.py
 
 次のリストがあります。
 
@@ -161,7 +161,7 @@ print(total)
 
 ---
 
-## list_ex7.php
+## list_ex7.py
 
 次のリストがあります。
 
@@ -196,7 +196,7 @@ print(max)
 
 ---
 
-## list_ex8.php
+## list_ex8.py
 
 次のリストがあります。
 
@@ -228,7 +228,7 @@ print(names)
 
 ---
 
-## list_ex9.php
+## list_ex9.py
 
 次のリストがあります。
 

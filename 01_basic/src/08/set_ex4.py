@@ -1,0 +1,5 @@
+ages = set()
+ages.add(10)
+ages.add(20)
+ages.add(30)
+print(ages)
