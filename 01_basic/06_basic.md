@@ -2,9 +2,9 @@
 
 ### list1.py
 
-+ リストは一つの変数で複数のデータを管理する仕組みです。
-+ リストに含まれる一つひとつのデータを要素と呼びます。
-+ 要素には先頭から要素番号（0から始まる番号）が割り振られています。
++ リストは一つの変数で複数のデータを管理する仕組み
++ リストに含まれる一つひとつのデータを要素と呼ぶ
++ 要素には先頭から要素番号（0から始まる番号）が割り振られている
 
 > 要素番号のことを添え字やインデックスなどと呼びます。
 
@@ -26,7 +26,7 @@ Higashiosaka
 
 ### list1_2.py
 
-+ Pythonのリストはprint関数で出力するとリスト全体が表示されます。
++ Pythonのリストはprint関数で出力するとリスト全体が表示される
 
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -42,7 +42,7 @@ $ python list1_2.py
 
 ### list1_3.py
 
-+ Pythonのリストは`:`を使ったスライス指定が可能です。
++ Pythonのリストは`:`を使ったスライス指定が可能
 
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -64,7 +64,7 @@ $ python list1_3.py
 
 ### list2.py
 
-+ リストの要素数を求めるには`len`関数を使います。
++ リストの要素数を求めるには`len`関数を使う
 
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -84,9 +84,9 @@ $ python list2.py
 
 ### list3.py
 
-+ リストは`for`文を使ってループで処理できます。
-+ リストの要素番号に`for`文のカウンター変数（`i`）を使います。
-+ リストの要素番号は`0`から始まる点に注意します。
++ リストは`for`文を使ってループで処理できる
++ リストの要素番号に`for`文のカウンター変数（一般的には`i`）を使う
++ リストの要素番号は`0`から始まる点に注意する
 
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -106,7 +106,7 @@ Higashiosaka
 
 ### list3_2.py
 
-+ for文の`in`句にはリスト変数を指定します。
++ for文の`in`句にはリスト変数を指定できる
 
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]
@@ -130,7 +130,7 @@ Higashiosaka
 
 ### list4.py
 
-+ リスト変数のappendメソッドを使うことでリストに要素を追加できます。
++ リスト変数のappendメソッドを使うことでリストに要素を追加できる
 
 ```python
 cities = []
@@ -153,7 +153,7 @@ $ python list4.py
 
 ### list5.py
 
-+ リストに対して要素番号を指定することで、リストの要素を更新できます。
++ リストに対して要素番号を指定することで、リストの要素を更新できる
 
 ```python
 cities = ["Osaka", "Sakai", "Higashiosaka"]

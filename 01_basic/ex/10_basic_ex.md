@@ -1,157 +1,111 @@
-# エクササイズ - 関数 - 関数の定義
+# エクササイズ - リストの内包表記
 
-## def_ex1.py
+## lc_ex1.py
 
-次の仕様に従って`subtract`関数を作成してください。
-
-|関数名|subtract|
-|:--|:--|
-|処理概要|引数xからyを減算した値を返す|
-|引数|x, y|
-|戻り値|xからy減算した値|
+次の変数があります。
 
 ```python
-def subtract(x, y):
-  # TODO
-
-a = 100
-b = 10
-c = subtract(a, b)
-print(c)
-
+prices = [1000, 2000, 3000]
 ```
+
++ 変数`prices`の要素を半額にした新たなリストを生成します。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
 ```
-$ python def_ex1.py 
-90
+$ python lc_ex1.py
+[500, 1000, 1500]
 ```
-
-> subtractは"引き算"という意味です。
 
 ---
 
-## def_ex2.py
 
-次の仕様に従って`exclaim`関数を作成してください。
+## lc_ex2.py
 
-|関数名|exclaim|
-|:--|:--|
-|処理概要|引数messageに"!!"を付けた値を出力する|
-|引数|message|
-|戻り値|なし|
+次の変数があります。
 
 ```python
-def exclaim(message):
-  # TODO
-
-exclaim("Hello");
-
+prices = [1000, 2000, 3000]
+base_price = 2000
 ```
+
++ 変数`prices`の要素について、基準価格（`base_price`）以上の要素のみを持つ新たなリストを生成します。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
 ```
-$ python def_ex2.py   
-Hello!!
+$ python lc_ex2.py
+[2000, 3000]
 ```
 
 ---
 
+## lc_ex3.py
 
-## def_ex3.py
-
-次の仕様に従って`double`関数を作成してください。
-
-|関数名|double|
-|:--|:--|
-|処理概要|引数xを2倍した値を返す|
-|引数|x|
-|戻り値|xを2倍した値|
-
+次の変数があります。
 
 ```python
-# TODO define double function
-
-value = 100
-result = double(value)
-print(result)
+prices = [1000, 2000, 3000]
+discount_rate = 0.3
 ```
 
-次の実行結果となるようにpythonプログラムを作成してください。
-
-### 実行結果
-
-```
-$ python def_ex3.py
-200
-```
-
----
-
-
-## def_ex4.py
-
-次の仕様に従って`array_double`関数を作成してください。
-
-|関数名|array_double|
-|:--|:--|
-|処理概要|引数arrayの要素を2倍にした配列を返す|
-|引数|array 配列データとする|
-|戻り値|arrayの要素を2倍にした配列|
-
-
-```python
-# TODO array_double function
-
-prices = [100, 200, 300]
-result = array_double(prices)
-print(result)
-```
++ 変数`prices`の要素について、割引率（`discount_rate`）を加味した新たなリストを生成します。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
 ```
-$ python def_ex4.py
-[200, 400, 600]
+$ python lc_ex3.py
+[700, 1400, 2100]
 ```
 
 ---
 
-## def_ex5.py
 
-次の仕様に従って`factorial`関数を作成してください。
+## lc_ex4.py
 
-|関数名|factorial|
-|:--|:--|
-|処理概要|引数xの階乗を返す|
-|引数|x|
-|戻り値|引数xの階乗|
-
-> x = 5のときの階乗は5 x 4 x 3 x 2 x 1 = 120
+次の変数があります。
 
 ```python
-# TODO define facorial function
-
-x = 5
-y = factorial(x)
-print(y)
+numbers = [[1, 2, 3], [4, 5], [6, 7, 8], [9]]
 ```
+
++ 変数`numbers`の要素について、要素数が3のリストのみを子要素に持つ新たなリストを生成します。
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
 ```
-$ python def_ex5.py
-120
+$ python lc_ex4.py
+[[1, 2, 3], [6, 7, 8]]
+```
+
+---
+
+## lc_ex5.py
+
+次の変数があります。
+
+```python
+numbers1 = [10, 20, 30]
+numbers2 = [1, 2, 3]
+```
+
++ 変数`numbers1`の要素と変数`numbers2`の要素について、それぞれを加算した結果を子要素に持つ新たなリストを生成します。
+
+次の実行結果となるようにPythonプログラムを作成してください。
+
+### 実行結果
+
+```
+$ python lc_ex5.py
+[11, 12, 13, 21, 22, 23, 31, 32, 33]
 ```
 
 ---

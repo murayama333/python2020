@@ -1,11 +1,11 @@
-# トレーニング - データ構造 - ディクショナリ
+# トレーニング - データ構造 - リスト
 
-## basic_tr31.py
+## basic_tr25.py
 
 次のプログラムがあります。
 
 ```python
-user = {"name": "Alice"}
+names = ["Alice", "Bob", "Charlie"]
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -13,17 +13,20 @@ user = {"name": "Alice"}
 ### 実行結果
 
 ```
-Name: Alice
+Hello Alice!
+Hello Bob!
+Hello Charlie!
 ```
 
 ---
 
-## basic_tr32.py
+## basic_tr26.py
 
 次のプログラムがあります。
 
 ```python
-user = {"name": "Alice", "age": 20, "city": "London"}
+messages = ["Hello", "Bonjour", "Ciao"]
+names = ["Alice", "Bob", "Charlie"]
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -31,19 +34,20 @@ user = {"name": "Alice", "age": 20, "city": "London"}
 ### 実行結果
 
 ```
-Name: Alice
-Age: 20
-City: London
+Hello Alice!
+Bonjour Bob!
+Ciao Charlie!
 ```
 
 ---
 
-## basic_tr33.py
+
+## basic_tr27.py
 
 次のプログラムがあります。
 
 ```python
-user = {"name": "Alice", "age": 20, "city": "London"}
+prices = [300, 200, 100, 500, 400]
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -51,23 +55,21 @@ user = {"name": "Alice", "age": 20, "city": "London"}
 ### 実行結果
 
 ```
-Keys: name age city 
+Sum: 1500
+Cnt: 5
+Avg: 300
 ```
-
-> ディクショナリ`user`に含まれるキーの一覧を表示します。
 
 ---
 
 
-## basic_tr34.py
+## basic_tr28.py
 
 次のプログラムがあります。
 
 ```python
-users = [{"name": "Alice", "age": 19, "city": "London"}, \
-         {"name": "Bob", "age": 20, "city": "Paris"}, \
-         {"name": "Charlie", "age": 21, "city": "London"} \
-        ]
+prices = [300, 200, 100, 500, 400]
+numbers = [1, 0, 1, 0, 2]
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -75,22 +77,19 @@ users = [{"name": "Alice", "age": 19, "city": "London"}, \
 ### 実行結果
 
 ```
-Names: Alice Bob Charlie 
+Sum: 1200
 ```
 
-> 変数`users`に含まれるディクショナリについて`name`キーの値を出力します。
+> `prices`リストの要素と`numbers`リストの要素の合計値を加算します。
 
 ---
 
-## basic_tr35.py
+## basic_tr29.py
 
 次のプログラムがあります。
 
 ```python
-users = [{"name": "Alice", "age": 19, "city": "London"}, \
-         {"name": "Bob", "age": 20, "city": "Paris"}, \
-         {"name": "Charlie", "age": 21, "city": "London"} \
-        ]
+items = [[300, 1], [200, 0], [100, 1], [500, 0], [400, 2]]
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -98,24 +97,23 @@ users = [{"name": "Alice", "age": 19, "city": "London"}, \
 ### 実行結果
 
 ```
-Total(Age): 60
+SUM: 1200
 ```
 
-> 変数`users`に含まれるディクショナリについて`age`キーの合計値を出力します。
+> `items`リストの要素は価格priceと個数のペアのリストになっています。価格と個数の乗算結果を合計します。
+
 
 ---
 
 
-## basic_tr36.py
+## basic_tr30.py
 
 次のプログラムがあります。
 
 ```python
-users = [{"name": "Alice", "age": 19, "city": "London"}, \
-         {"name": "Bob", "age": 20, "city": "Paris"}, \
-         {"name": "Charlie", "age": 21, "city": "London"} \
-        ]
-city = input("City: ")
+numbers_list = [[1, 2, 3, 4, 5], \
+           [10, 20, 30, 40, 50], \
+           [100, 200, 300, 400, 500]]
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -123,11 +121,12 @@ city = input("City: ")
 ### 実行結果
 
 ```
-City: London
-Names: Alice Bob
+Sum: 15
+Sum: 150
+Sum: 1500
 ```
 
-> 入力された`city`変数に一致する`city`キーを持つユーザ名を表示します。
+> `numbers_list`の要素ごとの合計値を出力します。
 
 ---
 

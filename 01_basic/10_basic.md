@@ -1,199 +1,104 @@
-# 関数 - 関数の定義
+# データ構造 - リストの内包表記
 
-### def1.py
+### lc1.py
 
-+ 足し算をする`add`関数を定義します。
-+ `add`関数は引数に`x`と`y`の2つを受け取ります。
-+ `add`関数は戻り値`x`と`y`の加算結果を返します。
++ リストの内包表記とは、リストを簡単に作成する仕組み
++ `[式 for 変数 in イテレート可能オブジェクト]`という文法で記述する
++ イテレート可能オブジェクトには、リストやタプル、ディクショナリ、文字列などがある
 
 ```python
-def add(x, y):
-  z = x + y
-  return z
-
-a = add(10, 20)
-b = add(30, 40)
-c = add(a, b)
-print(c)
+numbers = [i for i in range(10)]
+print(numbers)
 ```
-
-> 定義した関数は何度でも呼び出すことができます。
-
-#### 関数定義
-
-+ 関数を定義するにはdefキーワードを使います。
-+ `def`キーワードの後に関数名と引数を定義します。
-+ 関数の戻り値は`return`キーワードで指定します。
-
-```
-def 関数名(引数):
-  処理
-  return 戻り値
-```
-
-> Pythonは関数の処理ブロックもインデントで表現します。引数の後に`:`を付けることを忘れないようにしてください。
 
 ### 実行
 
 ```
-$ python def1.py 
-100
+$ python lc1.py
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
----
+### 参考
 
-
-### def2.py
-
-+ 引数で受け取った回数`"Hello"`と出力する`hello`関数を定義します。
-+ `hello`関数の引数`repeat`に`5`を指定して呼び出します。
-+ `hello`関数の戻り値はありません。
+> `lc1.py`と同等のコードは次のようになります。
 
 ```python
-def hello(repeat):
-  for i in range(repeat):
-    print("Hello")
-
-hello(5)
+numbers = []
+for i in range(10):
+    numbers.append(i)
+print(numbers)
 ```
 
-> 戻り値を返さない関数を定義できます。
+
+### lc2.py
+
++ リストの内包表記を使って既存のリストを加工して新たなリストを生成できる
+
+```python
+numbers = [1, 2, 3, 4, 5]
+numbers2 = [i * 2 for i in numbers]
+print(numbers2)
+```
 
 ### 実行
 
 ```
-$ python def2.py
-Hello
-Hello
-Hello
-Hello
-Hello
+$ python lc2.py
+[2, 4, 6, 8, 10]
 ```
 
+### tuple3.py
 
----
-
-### def3.py
-
-+ ランダムな要素数を持つリストを返却する`random_list`関数を定義します。
-+ `random_list`関数は引数がありません。
-+ `hello_world`関数は戻り値にランダムな要素数を持つリストを返します。
-
++ リストの内包表記を使って既存のリストをフィルタリングして新たなリストを生成できる
 
 ```python
-from random import randint
-
-def random_list():
-  size = randint(1, 9)
-  return list(range(size))
-
-list = random_list()
-print(list)
+numbers = [1, 2, 3, 4, 5]
+numbers2 = [i for i in numbers if i % 2 == 0]
+print(numbers2)
 ```
-
-> 引数を受け取らない関数を定義できます。
 
 ### 実行
 
 ```
-$ python def3.py
-[0, 1, 2, 3, 4, 5, 6, 7]
+$ python lc3.py
+[2, 4]
 ```
-
-> 実行するたびにリストの要素数が変化します。
 
 ---
 
-### def4.py
+### lc4.py
 
-+ `"Hello World!"`を出力する`hello_world`関数を定義します。
-+ `hello_world`関数を引数なしで呼び出します。
-+ `hello_world`関数の戻り値はありません。
++ 内包表記内に複数の`for`文を記述できる
 
 ```python
-def hello_world():
-  print("Hello World!")
-
-hello_world()
+numbers1 = [1, 2, 3]
+numbers2 = [10, 20, 30]
+numbers3 = [i * j for i in numbers1 for j in numbers2]
+print(numbers3)
 ```
-
-> 引数も戻り値もない関数を定義できます。
 
 ### 実行
 
 ```
-$ python def4.py 
-Hello World!
+$ python lc4.py
+[10, 20, 30, 20, 40, 60, 30, 60, 90]
 ```
 
----
+### 参考
 
-### def5.py
-
-+ Pythonの関数は引数にデフォルト値を定義できます。
+> `lc4.py`と同等のコードは次のようになります。
 
 ```python
-def hello_world(upcase=False, repeat=1):
-  for i in range(repeat):
-    if upcase:
-      print("HELLO WORLD!")
-    else:
-      print("Hello World!")
-
-hello_world()
-hello_world(True)
-hello_world(False, 3)
+numbers1 = [1, 2, 3]
+numbers2 = [10, 20, 30]
+numbers3 = []
+for i in numbers1:
+    for j in numbers2:
+        numbers3.append(i * j)
+print(numbers3)
 ```
 
-> hello_world関数の2つの引数upcase、repeatはデフォルト値が定義されています。これにより、関数呼び出し時に引数を省略することができます。
-
-### 実行
-
-```
-$ python def5.py
-Hello World!
-HELLO WORLD!
-Hello World!
-Hello World!
-Hello World!
-```
-
----
-
-### def6.py
-
-+ 再帰的に値を出力する`recursion`関数を定義します。
-+ `recursion`関数の中で再度`recursion`関数を呼び出すことができます。
-+ このような関数呼び出しを再帰呼び出しと呼びます。
-
-```python
-def recursion(x):
-  if x < 10:
-    print(x)
-    recursion(x + 1)
-
-recursion(1)
-```
-
-> recursion関数は再帰的な関数です。
-
-### 実行
-
-```
-> python func6.py
-1
-2
-3
-4
-5
-6
-7
-8
-9
-```
-
----
 
 ### 演習
 
-+ [エクササイズ - 関数の定義](ex/10_basic_ex.md)
++ [エクササイズ - リストの内包表記](ex/08_basic_ex.md)

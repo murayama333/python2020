@@ -1,11 +1,11 @@
-# トレーニング - データ構造 - リスト
+# トレーニング - 反復構造 - for文
 
-## basic_tr25.py
+## basic_tr19.py
 
 次のプログラムがあります。
 
 ```python
-names = ["Alice", "Bob", "Charlie"]
+stop = 10
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -13,20 +13,19 @@ names = ["Alice", "Bob", "Charlie"]
 ### 実行結果
 
 ```
-Hello Alice!
-Hello Bob!
-Hello Charlie!
+0 1 2 3 4 5 6 7 8 9 
 ```
 
 ---
 
-## basic_tr26.py
+## basic_tr20.py
 
 次のプログラムがあります。
 
 ```python
-messages = ["Hello", "Bonjour", "Ciao"]
-names = ["Alice", "Bob", "Charlie"]
+start = 3
+stop = 10
+step = 2
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -34,20 +33,19 @@ names = ["Alice", "Bob", "Charlie"]
 ### 実行結果
 
 ```
-Hello Alice!
-Bonjour Bob!
-Ciao Charlie!
+3 5 7 9 
 ```
 
 ---
 
-
-## basic_tr27.py
+## basic_tr21.py
 
 次のプログラムがあります。
 
 ```python
-prices = [300, 200, 100, 500, 400]
+start = int(input("Start: "))
+stop = int(input("Stop: "))
+step = int(input("Step: "))
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
@@ -55,78 +53,87 @@ prices = [300, 200, 100, 500, 400]
 ### 実行結果
 
 ```
-Sum: 1500
-Cnt: 5
-Avg: 300
+Start: 3
+Stop: 10
+Step: 2
+3, 5, 7, 9
 ```
 
 ---
 
-
-## basic_tr28.py
+## basic_tr22.py
 
 次のプログラムがあります。
 
 ```python
-prices = [300, 200, 100, 500, 400]
-numbers = [1, 0, 1, 0, 2]
+x = int(input("X: "))
+y = int(input("y: "))
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
++ `X: `に`3`、`Y: `に`7`を指定した場合
+
 ```
-Sum: 1200
+X: 3
+y: 7
+*******
+*******
+*******
 ```
 
-> `prices`リストの要素と`numbers`リストの要素の合計値を加算します。
+> 変数`x`は行数（縦に出力する数）、変数`y`は列数（横に出力する数）を意味します。
 
 ---
 
-## basic_tr29.py
+## basic_tr23.py
 
 次のプログラムがあります。
 
 ```python
-items = [[300, 1], [200, 0], [100, 1], [500, 0], [400, 2]]
+x = int(input("X: "))
+y = int(input("y: "))
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
++ `X: `に`3`、`Y: `に`5`を指定した場合
+
 ```
-SUM: 1200
+X: 3
+y: 5
+1 2 3 4 5 
+2 4 6 8 10 
+3 6 9 12 15 
 ```
 
-> `items`リストの要素は価格priceと個数のペアのリストになっています。価格と個数の乗算結果を合計します。
-
+> 九九表のように`x`と`y`を乗算した値を出力します。
 
 ---
 
-
-## basic_tr30.py
+## basic_tr24.py
 
 次のプログラムがあります。
 
 ```python
-numbers_list = [[1, 2, 3, 4, 5], \
-           [10, 20, 30, 40, 50], \
-           [100, 200, 300, 400, 500]]
+x = int(input("X: "))
 ```
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
 ### 実行結果
 
++ `X: `に`5`を指定した場合
+
 ```
-Sum: 15
-Sum: 150
-Sum: 1500
+X: 5
+Factorial: 120
 ```
 
-> `numbers_list`の要素ごとの合計値を出力します。
+> 入力された値`x`の階乗を求めます。
 
 ---
-
