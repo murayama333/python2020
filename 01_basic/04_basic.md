@@ -6,8 +6,8 @@
 count = 0
 
 while count < 5:
-  print("*", end="")
-  count = count + 1
+    print("*", end="")
+    count = count + 1
 ```
 
 ### 実行
@@ -25,7 +25,7 @@ $ python while1.py
 
 ```
 while 条件式:
-  条件式がTrueの場合の処理
+    条件式がTrueの場合の処理
 ```
 
 > `while`文は`if`文と異なり、条件式が`True`の間、インデントされた処理ブロックを繰り返し実行します。
@@ -39,8 +39,8 @@ while 条件式:
 total = 0
 i = 1
 while i <= 10:
-  total = total + i
-  i += 1
+    total = total + i
+    i += 1
 
 print(total)
 ```
@@ -48,7 +48,7 @@ print(total)
 ### 実行
 
 ```
-> python while2.py
+$ python while2.py
 55
 ```
 
@@ -66,12 +66,12 @@ print(total)
 ```python
 i = 1
 while i <= 9:
-  j = 1
-  while j <= 9:
-    print(i * j, end=" ")
-    j += 1
-  print()
-  i += 1
+    j = 1
+    while j <= 9:
+        print(i * j, end=" ")
+        j += 1
+    print()
+    i += 1
 ```
 
 ### 実行
@@ -94,7 +94,6 @@ $ python while3.py
 + 外側の反復構造のカウンター変数は`i`、内側の反復構造のカウンター変数は`j`のように異なる名前を付ける
 
 ---
-
 
 ### 演習
 

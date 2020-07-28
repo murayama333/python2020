@@ -1,13 +1,10 @@
-print("PRICE:", end="")
-price = int(input())
-print("MEMBER:", end="")
-member = input()
+price = int(input("PRICE: "))
+member = input("MEMBER: ")
 
-if member == "GOLD" :
-  point = int(price / 500)
+if member == "GOLD":
+    point = price // 500
 else:
-  point = int(price/ 1000)
+    point = price // 1000
 
 if point > 0:
-  print("POINT:", end="")
-  print(point)
+    print("POINT:", point)

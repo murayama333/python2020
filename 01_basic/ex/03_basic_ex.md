@@ -3,7 +3,7 @@
 ## if_ex1.py
 
 + 認証プログラムを作成します。
-  + ユーザIDによって出力を決定します。
+  + 入力されたユーザIDによって出力を決定します。
     + ユーザIDが"Alice"の場合、"Success"と表示します。
     + ユーザIDが"Alice"でない場合、"Error"と表示します。
 
@@ -35,8 +35,7 @@ Error
 ### ヒント
 
 ```python
-print("USER ID: ", end="")
-id = input()
+user_id = input("USER ID: ")
 
 # TODO
 ```
@@ -48,7 +47,7 @@ id = input()
 ## if_ex2.py
 
 + 認証プログラムを作成します。
-  + ユーザIDによって出力を決定します。
+  + 入力されたユーザIDによって出力を決定します。
     + ユーザIDが"Alice"、"Bob"のいずれかの場合、"Success"と表示します。
     + 上記以外の場合は、"Error"と表示します。
 
@@ -81,8 +80,7 @@ Error
 ### ヒント
 
 ```python
-print("USER ID: ", end="")
-id = input()
+user_id = input("USER ID: ")
 
 # TODO
 ```
@@ -93,7 +91,7 @@ id = input()
 ## if_ex3.py
 
 + 認証プログラムを作成します。
-  + ユーザIDによって出力を決定します。
+  + 入力されたユーザID、パスワードによって出力を決定します。
     + ユーザIDが"Alice"、かつ、パスワードが"pass"の場合、"Success"と表示します。
     + 上記以外の場合は、"Error"と表示します。
 
@@ -123,10 +121,8 @@ Error
 ### ヒント
 
 ```python
-print("USER ID: ", end="")
-id = input()
-print("PASSWORD: ", end="")
-password = input()
+user_id = input("USER ID: ")
+password = input("PASSWORD: ")
 
 # TODO
 ```
@@ -147,8 +143,8 @@ password = input()
 
 ```
 > python if_ex4.py
-PRICE:500
-POINT:1
+PRICE: 500
+POINT: 1
 ```
 
 > プログラムを実行後、キーボードから500と入力します。
@@ -157,19 +153,18 @@ POINT:1
 
 ```
 > python if_ex4.py
-PRICE:300
+PRICE: 300
 ```
 
 ### ヒント
 
 ```python
-print("PRICE:", end="")
-price = int(input())
+price = int(input("PRICE: "))
 
 # TODO
 ```
 
-> `int`関数は`int`型データに変換します。
+> `int`関数は整数型（`int`型）データに変換します。
 
 ---
 
@@ -200,13 +195,10 @@ PRICE:300
 ### ヒント
 
 ```python
-print("PRICE:", end="")
-price = int(input())
+price = int(input("PRICE: "))
 
 # TODO
 ```
-
-> `int`関数を使えば`float`型のデータも`int`型データに変換できます。
 
 ---
 
@@ -226,9 +218,9 @@ price = int(input())
 
 ```
 $ python if_ex6.py
-PRICE:3000
-MEMBER:GOLD
-POINT:6
+PRICE: 3000
+MEMBER: GOLD
+POINT: 6
 ```
 
 > プログラムを実行後、キーボードから3000 GOLDと入力します。
@@ -236,11 +228,10 @@ POINT:6
 #### 通常会員が3000円購入した場合
 
 ```
-> python if_ex6.py
 $ python if_ex6.py
-PRICE:3000
-MEMBER:NORMAL
-POINT:3
+PRICE: 3000
+MEMBER: NORMAL
+POINT: 3
 ```
 
 > プログラムを実行後、キーボードから3000 NORMALと入力します。
@@ -250,9 +241,9 @@ POINT:3
 
 ```
 $ python if_ex6.py
-PRICE:500
-MEMBER:GOLD
-POINT:1
+PRICE: 500
+MEMBER: GOLD
+POINT: 1
 ```
 
 > プログラムを実行後、キーボードから500 GOLDと入力します。
@@ -261,8 +252,8 @@ POINT:1
 
 ```
 $ python if_ex6.py
-PRICE:500
-MEMBER:NORMAL
+PRICE: 500
+MEMBER: NORMAL
 ```
 
 > プログラムを実行後、キーボードから500 NORMALと入力します。
@@ -270,10 +261,8 @@ MEMBER:NORMAL
 ### ヒント
 
 ```python
-print("PRICE:", end="")
-price = int(input())
-print("MEMBER:", end="")
-member = input()
+price = int(input("PRICE: "))
+member = input("MEMBER: ")
 
 # TODO
 ```

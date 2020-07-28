@@ -1,4 +1,4 @@
-# ディクショナリ
+# データ構造 - ディクショナリ
 
 ### dict1.py
 
@@ -8,9 +8,9 @@
 
 ```python
 cities = {"Osaka": 270, "Sakai": 84, "Higashiosaka": 50}
-
-for key in cities:
-  print(key)
+print(cities["Osaka"])
+print(cities["Sakai"])
+print(cities["Higashiosaka"])
 ```
 
 ### 実行
@@ -91,7 +91,7 @@ $ python dict4.py
 cities = {"Osaka": 270, "Sakai": 84, "Higashiosaka": 50}
 
 for key in cities:
-  print(key)
+    print(key)
 ```
 
 ### 実行
@@ -115,7 +115,7 @@ Higashiosaka
 cities = {"Osaka": 270, "Sakai": 84, "Higashiosaka": 50}
 
 for key in cities.values():
-  print(key)
+    print(key)
 ```
 
 ### 実行
@@ -137,27 +137,20 @@ $ python dict5_2.py
 cities = {"Osaka": 270, "Sakai": 84, "Higashiosaka": 50}
 
 for key, value in cities.items():
-  print(key)
-  print(value)
+    print(key, value)
 ```
 
 ### 実行
 
 ```
 $ python dict5_3.py
-Osaka
-270
-Sakai
-84
-Higashiosaka
-50
+Osaka 270
+Sakai 84
+Higashiosaka 50
 ```
-
-
----
 
 ---
 
 ### 演習
 
-+ [エクササイズ - ディクショナリ](ex/07_basic_ex.md)
++ [エクササイズ - データ構造 - ディクショナリ](ex/07_basic_ex.md)

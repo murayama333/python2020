@@ -1,4 +1,4 @@
-# エクササイズ - リスト
+# エクササイズ - データ構造 - リスト
 
 ## list_ex1.php
 
@@ -48,7 +48,7 @@ $ python list_ex2.py
 ```python
 ages = [22, 20, 25, 20, 18]
 for ??? in ???:
-  print(???)
+    print(???)
 ```
 
 ---
@@ -125,7 +125,7 @@ $ python list_ex5.py
 ages = [22, 20, 25, 20, 18]
 
 for i in range(???, ???, ???):
-  print(???)
+    print(???)
 ```
 
 ---
@@ -155,7 +155,7 @@ $ python list_ex6.py
 ages = [22, 20, 25, 20, 18]
 total = 0
 for age in ages:
-  ??? = ??? + ???
+    ??? = ??? + ???
 print(total)
 ```
 
@@ -174,7 +174,7 @@ ages = [22, 20, 25, 20, 18]
 ### 実行結果
 
 ```
-> php list_ex7.php
+$ python list_ex7.py
 25
 ```
 
@@ -188,8 +188,8 @@ ages = [22, 20, 25, 20, 18]
 
 max = 0
 for age in ages:
-  if ??? < ???:
-    ??? = ???
+    if ??? < ???:
+        ??? = ???
 
 print(max)
 ```

@@ -1,5 +1,4 @@
-print("PRICE:", end="")
-price = int(input())
+price = int(input("PRICE: "))
 
 if price >= 500:
-  print("POINT:1")
+    print("POINT: 1")
