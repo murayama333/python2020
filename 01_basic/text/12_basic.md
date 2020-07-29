@@ -4,8 +4,8 @@
 
 ``` python
 def add(x, y):
-  z = x + y
-  return z
+    z = x + y
+    return z
 
 a = add(10, 20)
 b = add(30, 40)
@@ -36,8 +36,8 @@ $ python def1.py
 
 ``` 
 def 関数名(引数):
-  処理
-  return 戻り値
+    処理
+    return 戻り値
 ```
 
 > Pythonは関数の処理ブロックもインデントで表現します。引数の後に `:` を付けることを忘れないようにしてください。
@@ -48,8 +48,8 @@ def 関数名(引数):
 
 ``` python
 def hello(repeat):
-  for i in range(repeat):
-    print("Hello")
+    for i in range(repeat):
+        print("Hello")
 
 hello(5)
 ```
@@ -81,8 +81,8 @@ Hello
 from random import randint
 
 def random_list():
-  size = randint(1, 9)
-  return list(range(size))
+    size = randint(1, 9)
+    return list(range(size))
 
 list = random_list()
 print(list)
@@ -111,7 +111,7 @@ $ python def3.py
 
 ``` python
 def hello_world():
-  print("Hello World!")
+    print("Hello World!")
 
 hello_world()
 ```
@@ -137,11 +137,11 @@ Hello World!
 
 ``` python
 def hello_world(upcase=False, repeat=1):
-  for i in range(repeat):
-    if upcase:
-      print("HELLO WORLD!")
-    else:
-      print("Hello World!")
+    for i in range(repeat):
+        if upcase:
+            print("HELLO WORLD!")
+        else:
+            print("Hello World!")
 
 hello_world()
 hello_world(True)
@@ -175,9 +175,9 @@ Hello World!
 
 ``` python
 def recursion(x):
-  if x < 10:
-    print(x)
-    recursion(x + 1)
+    if x < 10:
+        print(x)
+        recursion(x + 1)
 
 recursion(1)
 ```
