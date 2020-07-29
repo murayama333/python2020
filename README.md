@@ -1,6 +1,6 @@
 # Python 2020
 
-+ Pythonプログラミング入門（8/19 - 10/12）
++ [Pythonプログラミング入門（8/19 - 10/12）](01_basic/text/)
   + [Hello Python!](01_basic/text/01_basic.md)
   + [変数と演算子](01_basic/text/02_basic.md)
   + [制御構文 - 分岐構造 - if文](01_basic/text/03_basic.md)

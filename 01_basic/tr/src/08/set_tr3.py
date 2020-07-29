@@ -1,0 +1,8 @@
+names = set()
+name1 = input("Name1: ")
+name2 = input("Name2: ")
+name3 = input("Name3: ")
+names.add(name1)
+names.add(name2)
+names.add(name3)
+print("Names:", names)
