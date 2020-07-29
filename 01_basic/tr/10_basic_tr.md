@@ -1,6 +1,6 @@
 # トレーニング - データ構造 - リストの内包表記
 
-## lc_tr1.py
+## `lc_tr1.py`
 
 次のプログラムがあります。
 
@@ -20,7 +20,7 @@ print(name_ex_list)
 
 ---
 
-## lc_tr2.py
+## `lc_tr2.py`
 
 次のプログラムがあります。
 
@@ -40,7 +40,7 @@ name_list = ["Alice", "Bob", "Charie", "Daniel"]
 
 ---
 
-## lc_tr3.py
+## `lc_tr3.py`
 
 次のプログラムがあります。
 
@@ -62,7 +62,7 @@ name_list = ["Alice", "Bob", "Charie", "Daniel"]
 
 ---
 
-## lc_tr4.py
+## `lc_tr4.py`
 
 次のプログラムがあります。
 
@@ -83,7 +83,7 @@ print(number_list)
 
 ---
 
-## lc_tr5.py
+## `lc_tr5.py`
 
 次のプログラムがあります。
 
@@ -103,7 +103,7 @@ print(number_list)
 
 ---
 
-## lc_tr6.py
+## `lc_tr6.py`
 
 次のプログラムがあります。
 

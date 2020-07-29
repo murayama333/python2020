@@ -1,6 +1,6 @@
 # トレーニング - データ構造 - タプル
 
-## tuple_tr1.py
+## `tuple_tr1.py`
 
 次のプログラムがあります。
 
@@ -20,7 +20,7 @@ OneTwoThreeFourFive
 
 ---
 
-## tuple_tr2.py
+## `tuple_tr2.py`
 
 次のプログラムがあります。
 
@@ -44,7 +44,7 @@ numbers = ("One", "Two", "Three", "Four", "Five")
 
 ---
 
-## tuple_tr3.py
+## `tuple_tr3.py`
 
 次のプログラムがあります。
 
@@ -70,7 +70,7 @@ Four
 
 ---
 
-## tuple_tr4.py
+## `tuple_tr4.py`
 
 次のプログラムがあります。
 
@@ -94,7 +94,7 @@ Avg: 80
 
 ---
 
-## tuple_tr5.py
+## `tuple_tr5.py`
 
 次のプログラムがあります。
 
@@ -129,7 +129,7 @@ NG
 
 ---
 
-## tuple_tr6.py
+## `tuple_tr6.py`
 
 次のプログラムがあります。
 

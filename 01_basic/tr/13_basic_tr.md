@@ -14,7 +14,7 @@ def bonjour(name):
     return "Bonjour " + name
 ```
 
-#### mod_tr1.py
+#### `mod_tr1.py`
 
 ``` python
 import greeting

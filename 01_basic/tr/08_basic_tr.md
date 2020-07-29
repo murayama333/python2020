@@ -1,6 +1,6 @@
 # トレーニング - データ構造 - セット
 
-## set_tr1.py
+## `set_tr1.py`
 
 次のプログラムがあります。
 
@@ -22,7 +22,7 @@ Alice Carlie Bob
 
 ---
 
-## set_tr2.py
+## `set_tr2.py`
 
 次のプログラムがあります。
 
@@ -56,7 +56,7 @@ NG
 
 ---
 
-## set_tr3.py
+## `set_tr3.py`
 
 次のプログラムがあります。
 
@@ -89,7 +89,7 @@ Names: {'Alice', 'Bob'}
 
 ---
 
-## set_tr4.py
+## `set_tr4.py`
 
 次のプログラムがあります。
 
@@ -125,7 +125,7 @@ Names: {'Charlie', 'Bob', 'Alice'}
 
 ---
 
-## set_tr5.py
+## `set_tr5.py`
 
 次のプログラムがあります。
 
@@ -150,7 +150,7 @@ Number Set: {10, 20, 30}
 
 ---
 
-## set_tr6.py
+## `set_tr6.py`
 
 次のプログラムがあります。
 
