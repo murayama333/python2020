@@ -1,6 +1,6 @@
 # トレーニング - Hello Python!
 
-## basic_tr1.py
+## `hello_tr1.py`
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
@@ -16,7 +16,7 @@
 
 ---
 
-## basic_tr2.py
+## `hello_tr2.py`
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
@@ -28,7 +28,7 @@
 
 ---
 
-## basic_tr3.py
+## `hello_tr3.py`
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
@@ -42,7 +42,7 @@
 
 ---
 
-## basic_tr4.py
+## `hello_tr4.py`
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
@@ -58,7 +58,7 @@
 
 ---
 
-## basic_tr5.py
+## `hello_tr5.py`
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
@@ -74,7 +74,7 @@
 
 ---
 
-## basic_tr6.py
+## `hello_tr6.py`
 
 次の実行結果となるようにPythonプログラムを作成してください。
 
@@ -90,3 +90,9 @@
 ```
 
 ---
+
+---
+
+### テキスト
+
+* [テキスト - Hello Python!](../text/01_basic.md)

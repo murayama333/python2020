@@ -97,4 +97,4 @@ $ python while3.py
 
 ### 演習
 
-* [エクササイズ - 制御構文 - 反復構造 - while文](../ex/04_python_ex.md)
+* [エクササイズ - 制御構文 - 反復構造 - while文](../ex/04_basic_ex.md)

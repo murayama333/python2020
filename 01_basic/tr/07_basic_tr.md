@@ -1,6 +1,6 @@
 # トレーニング - データ構造 - ディクショナリ
 
-## basic_tr31.py
+## dict_tr1.py
 
 次のプログラムがあります。
 
@@ -18,7 +18,7 @@ Name: Alice
 
 ---
 
-## basic_tr32.py
+## dict_tr2.py
 
 次のプログラムがあります。
 
@@ -38,7 +38,7 @@ City: London
 
 ---
 
-## basic_tr33.py
+## dict_tr3.py
 
 次のプログラムがあります。
 
@@ -58,7 +58,7 @@ Keys: name age city
 
 ---
 
-## basic_tr34.py
+## dict_tr4.py
 
 次のプログラムがあります。
 
@@ -81,7 +81,7 @@ Names: Alice Bob Charlie
 
 ---
 
-## basic_tr35.py
+## dict_tr5.py
 
 次のプログラムがあります。
 
@@ -104,7 +104,7 @@ Total(Age): 60
 
 ---
 
-## basic_tr36.py
+## dict_tr6.py
 
 次のプログラムがあります。
 
@@ -128,3 +128,7 @@ Names: Alice Bob
 > 入力された `city` 変数に一致する `city` キーを持つユーザ名を表示します。
 
 ---
+
+### テキスト
+
+* [テキスト - データ構造 - ディクショナリ](../text/07_basic.md)
