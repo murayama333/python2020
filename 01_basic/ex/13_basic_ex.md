@@ -1,6 +1,6 @@
 # エクササイズ - モジュール
 
-## figure.py, mod_ex1.py
+##  mod_ex1.py mode.py
 
 ### figure.py
 
@@ -125,3 +125,7 @@ Rectangle: 100
 ```
 
 ---
+
+### テキスト
+
+* [テキスト - モジュール](../text/13_basic_ex.md)
