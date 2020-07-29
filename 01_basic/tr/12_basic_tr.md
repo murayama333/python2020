@@ -1,6 +1,6 @@
 # トレーニング - 関数 - 関数の定義
 
-## def_tr1.py
+## `def_tr1.py`
 
 次の仕様に従って `add` 関数を作成してください。
 
@@ -31,7 +31,7 @@ print(d)
 
 ---
 
-## def_tr2.py
+## `def_tr2.py`
 
 次の仕様に従って `calc_rect_area` 関数を作成してください。
 
@@ -68,7 +68,7 @@ print(area)
 
 ---
 
-## def_tr3.py
+## `def_tr3.py`
 
 次の仕様に従って `calc_circle_area` 関数を作成してください。
 
@@ -103,7 +103,7 @@ print(area)
 
 ---
 
-## def_tr4.py
+## `def_tr4.py`
 
 次の仕様に従って `average` 関数を作成してください。
 
@@ -138,7 +138,7 @@ print(avg)
 
 ---
 
-## def_tr5.py
+## `def_tr5.py`
 
 次の仕様に従って `show_list_info` 関数を作成してください。
 
@@ -170,7 +170,7 @@ Min: -80
 
 ---
 
-## def_tr6.py
+## `def_tr6.py`
 
 次の仕様に従って `abs_sum` 関数を作成してください。
 

@@ -1,6 +1,6 @@
 # トレーニング - データ構造 - ディクショナリ
 
-## dict_tr1.py
+## `dict_tr1.py`
 
 次のプログラムがあります。
 
@@ -18,7 +18,7 @@ Name: Alice
 
 ---
 
-## dict_tr2.py
+## `dict_tr2.py`
 
 次のプログラムがあります。
 
@@ -38,7 +38,7 @@ City: London
 
 ---
 
-## dict_tr3.py
+## `dict_tr3.py`
 
 次のプログラムがあります。
 
@@ -58,7 +58,7 @@ Keys: name age city
 
 ---
 
-## dict_tr4.py
+## `dict_tr4.py`
 
 次のプログラムがあります。
 
@@ -81,7 +81,7 @@ Names: Alice Bob Charlie
 
 ---
 
-## dict_tr5.py
+## `dict_tr5.py`
 
 次のプログラムがあります。
 
@@ -104,7 +104,7 @@ Total(Age): 60
 
 ---
 
-## dict_tr6.py
+## `dict_tr6.py`
 
 次のプログラムがあります。
 
