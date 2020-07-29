@@ -4,7 +4,7 @@
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (35, 42, 67, 34, 46)
 ```
 
@@ -12,7 +12,7 @@ ages = (35, 42, 67, 34, 46)
 
 ### 実行結果
 
-```
+``` 
 $ python tuple_ex1.py 
 67
 ```
@@ -21,12 +21,11 @@ $ python tuple_ex1.py
 
 ---
 
-
 ## tuple_ex2.py
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (22, 20, 25, 20, 18)
 ```
 
@@ -34,7 +33,7 @@ ages = (22, 20, 25, 20, 18)
 
 ### 実行結果
 
-```
+``` 
 $ python tuple_ex2.py
 35
 42
@@ -49,7 +48,7 @@ $ python tuple_ex2.py
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (35, 42, 67, 34, 46)
 ```
 
@@ -57,7 +56,7 @@ ages = (35, 42, 67, 34, 46)
 
 ### 実行結果
 
-```
+``` 
 $ python tuple_ex3.py 
 5
 ```
@@ -66,12 +65,11 @@ $ python tuple_ex3.py
 
 ---
 
-
 ## tuple_ex4.py
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (35, 42, 67, 34, 46)
 ```
 
@@ -79,7 +77,7 @@ ages = (35, 42, 67, 34, 46)
 
 ### 実行結果
 
-```
+``` 
 $ python tuple_ex4.py
 35
 42
@@ -94,7 +92,7 @@ $ python tuple_ex4.py
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (35, 42, 67, 34, 46)
 ```
 
@@ -102,7 +100,7 @@ ages = (35, 42, 67, 34, 46)
 
 ### 実行結果
 
-```
+``` 
 $ python tuple_ex5.py
 35
 67
@@ -117,7 +115,7 @@ $ python tuple_ex5.py
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (35, 42, 67, 34, 46)
 ```
 
@@ -125,7 +123,7 @@ ages = (35, 42, 67, 34, 46)
 
 ### 実行結果
 
-```
+``` 
 $ python tuple_ex6.py
 224
 ```
@@ -138,7 +136,7 @@ $ python tuple_ex6.py
 
 次のタプルがあります。
 
-```python
+``` python
 ages = (35, 42, 67, 34, 46)
 ```
 
@@ -146,7 +144,7 @@ ages = (35, 42, 67, 34, 46)
 
 ### 実行結果
 
-```
+``` 
 > php tuple_ex7.py
 67
 ```

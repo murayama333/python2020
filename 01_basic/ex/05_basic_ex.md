@@ -6,7 +6,7 @@
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex1.py
 1
 2
@@ -17,7 +17,7 @@ $ python for_ex1.py
 
 ### ヒント
 
-```python
+``` python
 for i in range(???, ???):
     print(i)
 ```
@@ -30,7 +30,7 @@ for i in range(???, ???):
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex2.py
 5
 4
@@ -41,7 +41,7 @@ $ python for_ex2.py
 
 ### ヒント
 
-```python
+``` python
 for i in range(???, ???, ???):
     print(i)
 ```
@@ -54,7 +54,7 @@ for i in range(???, ???, ???):
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex3.py
 0
 2
@@ -71,7 +71,7 @@ $ python for_ex3.py
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex4.py
 1
 3
@@ -82,7 +82,6 @@ $ python for_ex4.py
 
 ---
 
-
 ## for_ex5.py
 
 1〜9までの合計値を表示するプログラムを作成します。
@@ -91,20 +90,19 @@ $ python for_ex4.py
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex5.py
 45
 ```
 
 ### ヒント
 
-```python
+``` python
 total = 0
 # TODO
 ```
 
 ---
-
 
 ## for_ex6.py
 
@@ -114,14 +112,14 @@ total = 0
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex6.py
 20
 ```
 
 ### ヒント
 
-```python
+``` python
 total = 0
 # TODO
 ```
@@ -136,14 +134,14 @@ total = 0
 
 ### 実行結果
 
-```
+``` 
 $ python for_ex7.py
 25
 ```
 
 ### ヒント
 
-```python
+``` python
 total = 0
 # TODO
 ```

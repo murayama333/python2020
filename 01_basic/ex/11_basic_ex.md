@@ -4,7 +4,7 @@
 
 次のリストがあります。
 
-```python
+``` python
 numbers = [10, -20, 30, -40, 50]
 ```
 
@@ -12,7 +12,7 @@ numbers = [10, -20, 30, -40, 50]
 
 ### 実行結果
 
-```
+``` 
 $ python func_ex1.py 
 10
 20
@@ -29,7 +29,7 @@ $ python func_ex1.py
 
 次のリストがあります。
 
-```python
+``` python
 table = [
   [10, 20, 30],
   [40, 50, 60],
@@ -41,7 +41,7 @@ table = [
 
 ### 実行結果
 
-```
+``` 
 $ python func_ex2.py
 Max: 30
 Max: 60
@@ -56,7 +56,7 @@ Max: 90
 
 次のリストがあります。
 
-```python
+``` python
 points = ["10", "20", "30"]
 ```
 
@@ -64,7 +64,7 @@ points = ["10", "20", "30"]
 
 ### 実行結果
 
-```
+``` 
 $ python func_ex3.py
 Sum 60
 ```
@@ -73,30 +73,29 @@ Sum 60
 
 ---
 
-
 ## func_ex4.py
 
 偶数・奇数を判定するプログラムを作成します。以下の仕様に従って、後の実行結果となるようにPythonプログラムを作成してください。
 
-+ プロンプトに`"Please enter a number "`と表示して、キーボードからの入力データを受け取ります。
+* プロンプトに `"Please enter a number "` と表示して、キーボードからの入力データを受け取ります。
   + 受け取ったデータが偶数の場合
-    + 画面に`"Even"`と表示します。
+    - 画面に `"Even"` と表示します。
   + 受け取ったデータが奇数の場合
-    + 画面に`"Odd"`と表示します。
+    - 画面に `"Odd"` と表示します。
 
 ### 実行結果
 
-#### キーボードから`8`を入力した場合
+#### キーボードから `8` を入力した場合
 
-```
+``` 
 $ python func_ex4.py
 Please enter a number 8
 Even
 ```
 
-#### キーボードから`5`を入力した場合
+#### キーボードから `5` を入力した場合
 
-```
+``` 
 $ python func_ex4.py
 Please enter a number 5
 Odd
@@ -104,7 +103,7 @@ Odd
 
 ### ヒント
 
-```python
+``` python
 number = int(input("Please enter a number "))
 
 # TODO
@@ -118,21 +117,21 @@ number = int(input("Please enter a number "))
 
 ジャンケンするプログラムを作成します。以下の仕様に従って、後の実行結果となるようにPythonプログラムを作成してください。
 
-+ プロンプトに`"Please enter a number (0:Goo, 1:Choki, 2:Par) "`と表示して、キーボードからの入力データを受け取ります。
-+ `random`モジュールの`randint`関数を使って、コンピュータのランダムな数値を作成し、`"Computer 0"` のように画面に表示します。
-+ キーボードからの入力と、コンピュータのランダムな数値を比較します。
+* プロンプトに `"Please enter a number (0:Goo, 1:Choki, 2:Par) "` と表示して、キーボードからの入力データを受け取ります。
+* `random` モジュールの `randint` 関数を使って、コンピュータのランダムな数値を作成し、 `"Computer 0"` のように画面に表示します。
+* キーボードからの入力と、コンピュータのランダムな数値を比較します。
   + ユーザが勝利した場合
-    + 画面に`"Win"`と表示します。
+    - 画面に `"Win"` と表示します。
   + コンピュータが勝利した場合
-    + 画面に`"Lose"`と表示します。
+    - 画面に `"Lose"` と表示します。
   + 上記のいずれでもない場合（引き分けの場合）
-    + 画面に`"Draw"`と表示します。
+    - 画面に `"Draw"` と表示します。
 
 ### 実行結果
 
 #### ユーザが2（Par）で、コンピュータが0（Goo）の場合
 
-```
+``` 
 $ python func_ex5.py
 Please enter a number (0:Goo, 1:Choki, 2:Par) 2
 Computer 0
@@ -141,11 +140,11 @@ Win
 
 #### ユーザが1（Choki）で、コンピュータが0（Goo）の場合
 
-```
+``` 
 $ python func_ex5.py
 Please enter a number (0:Goo, 1:Choki, 2:Par) 1
 Computer 0
 Lose
 ```
----
 
+---

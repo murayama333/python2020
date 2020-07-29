@@ -6,7 +6,7 @@
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex1.py 
 1
 2
@@ -17,7 +17,7 @@ $ python while_ex1.py
 
 ### ヒント
 
-```python
+``` python
 i = 1
 while ???:
     print(i)
@@ -32,7 +32,7 @@ while ???:
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex2.py
 5
 4
@@ -43,7 +43,7 @@ $ python while_ex2.py
 
 ### ヒント
 
-```
+``` 
 i = 5
 # TODO
 ```
@@ -56,7 +56,7 @@ i = 5
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex3.py
 0
 2
@@ -67,7 +67,7 @@ $ python while_ex3.py
 
 ### ヒント
 
-```python
+``` python
 i = 0
 # TODO
 ```
@@ -80,7 +80,7 @@ i = 0
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex4.py
 1
 3
@@ -91,13 +91,12 @@ $ python while_ex4.py
 
 ### ヒント
 
-```python
+``` python
 i = 0
 # TODO
 ```
 
 ---
-
 
 ## while_ex5.py
 
@@ -107,21 +106,20 @@ i = 0
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex5.py
 45
 ```
 
 ### ヒント
 
-```python
+``` python
 total = 0
 i = 0
 # TODO
 ```
 
 ---
-
 
 ## while_ex6.py
 
@@ -131,14 +129,14 @@ i = 0
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex6.py
 20
 ```
 
 ### ヒント
 
-```python
+``` python
 total = 0
 i = 0
 # TODO
@@ -154,14 +152,14 @@ i = 0
 
 ### 実行結果
 
-```
+``` 
 $ python while_ex7.py
 25
 ```
 
 ### ヒント
 
-```python
+``` python
 total = 0
 i = 0
 # TODO

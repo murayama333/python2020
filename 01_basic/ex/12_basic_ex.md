@@ -2,7 +2,7 @@
 
 ## def_ex1.py
 
-次の仕様に従って`subtract`関数を作成してください。
+次の仕様に従って `subtract` 関数を作成してください。
 
 |関数名|subtract|
 |:--|:--|
@@ -10,9 +10,9 @@
 |引数|x, y|
 |戻り値|xからy減算した値|
 
-```python
+``` python
 def subtract(x, y):
-  # TODO
+    # TODO
 
 a = 100
 b = 10
@@ -25,7 +25,7 @@ print(c)
 
 ### 実行結果
 
-```
+``` 
 $ python def_ex1.py 
 90
 ```
@@ -36,7 +36,7 @@ $ python def_ex1.py
 
 ## def_ex2.py
 
-次の仕様に従って`exclaim`関数を作成してください。
+次の仕様に従って `exclaim` 関数を作成してください。
 
 |関数名|exclaim|
 |:--|:--|
@@ -44,9 +44,9 @@ $ python def_ex1.py
 |引数|message|
 |戻り値|なし|
 
-```python
+``` python
 def exclaim(message):
-  # TODO
+    # TODO
 
 exclaim("Hello");
 
@@ -56,17 +56,16 @@ exclaim("Hello");
 
 ### 実行結果
 
-```
+``` 
 $ python def_ex2.py   
 Hello!!
 ```
 
 ---
 
-
 ## def_ex3.py
 
-次の仕様に従って`double`関数を作成してください。
+次の仕様に従って `double` 関数を作成してください。
 
 |関数名|double|
 |:--|:--|
@@ -74,8 +73,7 @@ Hello!!
 |引数|x|
 |戻り値|xを2倍した値|
 
-
-```python
+``` python
 # TODO define double function
 
 value = 100
@@ -87,17 +85,16 @@ print(result)
 
 ### 実行結果
 
-```
+``` 
 $ python def_ex3.py
 200
 ```
 
 ---
 
-
 ## def_ex4.py
 
-次の仕様に従って`array_double`関数を作成してください。
+次の仕様に従って `array_double` 関数を作成してください。
 
 |関数名|array_double|
 |:--|:--|
@@ -105,8 +102,7 @@ $ python def_ex3.py
 |引数|array 配列データとする|
 |戻り値|arrayの要素を2倍にした配列|
 
-
-```python
+``` python
 # TODO array_double function
 
 prices = [100, 200, 300]
@@ -118,7 +114,7 @@ print(result)
 
 ### 実行結果
 
-```
+``` 
 $ python def_ex4.py
 [200, 400, 600]
 ```
@@ -127,7 +123,7 @@ $ python def_ex4.py
 
 ## def_ex5.py
 
-次の仕様に従って`factorial`関数を作成してください。
+次の仕様に従って `factorial` 関数を作成してください。
 
 |関数名|factorial|
 |:--|:--|
@@ -137,7 +133,7 @@ $ python def_ex4.py
 
 > x = 5のときの階乗は5 x 4 x 3 x 2 x 1 = 120
 
-```python
+``` python
 # TODO define facorial function
 
 x = 5
@@ -149,7 +145,7 @@ print(y)
 
 ### 実行結果
 
-```
+``` 
 $ python def_ex5.py
 120
 ```
