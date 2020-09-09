@@ -144,4 +144,4 @@ TypeError: 'tuple' object does not support item assignment
 
 ### 演習
 
-* [エクササイズ - データ構造 - タプル](../ex/08_basic_ex.md)
+* [エクササイズ - データ構造 - タプル](../ex/09_basic_ex.md)
