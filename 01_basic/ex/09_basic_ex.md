@@ -145,7 +145,7 @@ ages = (35, 42, 67, 34, 46)
 ### 実行結果
 
 ``` 
-> php tuple_ex7.py
+$ python tuple_ex7.py
 67
 ```
 
