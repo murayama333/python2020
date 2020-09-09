@@ -3,8 +3,8 @@
 ### `set1.py`
 
 ``` python
-cities = {"Red", "Blue", "Green", "Red"}
-print(cities)
+colors = {"Red", "Blue", "Green", "Red"}
+print(colors)
 ```
 
 ### 実行
@@ -29,8 +29,8 @@ $ python set1.py
 ### `set2.py`
 
 ``` python
-cities = {"Red", "Blue", "Green", "Red"}
-length = len(cities)
+colors = {"Red", "Blue", "Green", "Red"}
+length = len(colors)
 print(length)
 ```
 
@@ -50,9 +50,9 @@ $ python set2.py
 ### `set3.py`
 
 ``` python
-cities = {"Red", "Blue", "Green", "Red"}
-for city in cities:
-    print(city)
+colors = {"Red", "Blue", "Green", "Red"}
+for color in colors:
+    print(color)
 ```
 
 ### 実行
@@ -75,12 +75,12 @@ Blue
 ### `set4.py`
 
 ``` python
-cities = set()
-cities.add("Red")
-cities.add("Green")
-cities.add("Red")
-for city in cities:
-    print(city)
+colors = set()
+colors.add("Red")
+colors.add("Green")
+colors.add("Red")
+for color in colors:
+    print(color)
 ```
 
 ### 実行
@@ -104,8 +104,8 @@ Blue
 ### `set5.py`
 
 ``` python
-cities = {"Red", "Blue", "Green"}
-if "Blue" in cities:
+colors = {"Red", "Blue", "Green"}
+if "Blue" in colors:
     print("Found")
 else:
     print("Not Found")
