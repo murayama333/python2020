@@ -48,7 +48,7 @@ Max: 60
 Max: 90
 ```
 
-> リストの各要素ごとの合計値を出力します。
+> リストの各要素ごとの最大値を出力します。
 
 ---
 
@@ -66,7 +66,7 @@ points = ["10", "20", "30"]
 
 ``` 
 $ python func_ex3.py
-Sum 60
+Sum: 60
 ```
 
 > リストの要素の合計値を出力します。
@@ -101,14 +101,6 @@ Please enter a number 5
 Odd
 ```
 
-### ヒント
-
-``` python
-number = int(input("Please enter a number "))
-
-# TODO
-```
-
 > ここでは数値以外の入力データは想定しないものとします。
 
 ---
@@ -117,7 +109,7 @@ number = int(input("Please enter a number "))
 
 ジャンケンするプログラムを作成します。以下の仕様に従って、後の実行結果となるようにPythonプログラムを作成してください。
 
-* プロンプトに `"Please enter a number (0:Goo, 1:Choki, 2:Par) "` と表示して、キーボードからの入力データを受け取ります。
+* プロンプトに `"Please enter a number (0:Goo, 1:Choki, 2:Par) "` と表示して、キーボードからの数値の入力データを受け取ります。
 * `random` モジュールの `randint` 関数を使って、コンピュータのランダムな数値を作成し、 `"Computer 0"` のように画面に表示します。
 * キーボードからの入力と、コンピュータのランダムな数値を比較します。
   + ユーザが勝利した場合
@@ -145,6 +137,15 @@ $ python func_ex5.py
 Please enter a number (0:Goo, 1:Choki, 2:Par) 1
 Computer 0
 Lose
+```
+
+> ここでは数値以外の入力データは想定しないものとします。
+
+### ヒント - 0〜100までの乱数の求め方
+
+```py
+from random import randint
+x = randint(0, 100)
 ```
 
 ---

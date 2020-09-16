@@ -4,4 +4,4 @@ total = 0
 for point in points:
     total += int(point)
 
-print("Sum", total)
+print("Sum:", total)
