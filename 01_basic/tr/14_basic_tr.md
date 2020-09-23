@@ -160,7 +160,14 @@ tr04
 1 directory, 4 files
 ```
 
-> `calc.py` 、 `stats.py` に変更はありません。
+> `__init__.py` 、 `main.py` を修正します。 `calc.py` 、 `stats.py` に変更はありません。
+
+#### `tr04/mystats/__init__.py`
+
+``` 
+???
+???
+```
 
 #### `tr04/main.py`
 
@@ -173,6 +180,8 @@ print(mystats.calc.add(x, y))
 print(mystats.calc.subtract(x, y))
 print(mystats.stats.mean(x, y))
 ```
+
+> `import mystats` と記述します。
 
 次の実行結果となるようにPythonプログラム（ `__init__.py` ）を作成してください。
 

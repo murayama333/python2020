@@ -21,25 +21,25 @@
     └── myfile2.py
 ```
 
-#### 01/mypack/myfile1.py
+#### `01/mypack/myfile1.py`
 
 ``` py
 def hello():
     print("Hello")
 ```
 
-#### 01/mypack/myfile2.py
+#### `01/mypack/myfile2.py`
 
 ``` py
 def world():
     print("World")
 ```
 
-#### 01/mypack/__init__.py
+#### `01/mypack/__init__.py`
 
 > ファイルの中身は空としておきます。
 
-#### 01/main.py
+#### `01/main.py`
 
 ``` py
 import mypack.myfile1
@@ -73,7 +73,7 @@ World
     └── myfile2.py
 ```
 
-#### 02/main.py
+#### `02/main.py`
 
 ``` py
 import mypack.myfile1 as mf1
@@ -107,7 +107,7 @@ World
     └── myfile2.py
 ```
 
-#### 03/main.py
+#### `03/main.py`
 
 ``` py
 from mypack.myfile1 import hello
@@ -141,14 +141,14 @@ World
     └── myfile2.py
 ```
 
-#### 04/mypack/__init__.py
+#### `04/mypack/__init__.py`
 
 ``` py
 import mypack.myfile1
 import mypack.myfile2
 ```
 
-#### 04/main.py
+#### `04/main.py`
 
 ``` py
 import mypack

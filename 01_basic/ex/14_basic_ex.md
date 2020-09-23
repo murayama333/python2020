@@ -60,7 +60,7 @@ ex02
     └── list.py
 ```
 
-> `list.py` を追加し、 `main.py` を修正します。 `list.py` に変更はありません。
+> `dict.py` を追加し、 `main.py` を修正します。 `list.py` に変更はありません。
 
 #### `ex02/mycollection/dict.py`
 
@@ -169,4 +169,4 @@ $ python main.py
 
 ### テキスト
 
-* [テキスト - パッケージ](../text/14_basic_ex.md)
+* [テキスト - パッケージ](../text/14_basic.md)

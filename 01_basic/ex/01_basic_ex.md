@@ -57,4 +57,4 @@ $ python hello_ex3.py
 
 ### テキスト
 
-* [テキスト - Hello Python!](../text/01_basic_ex.md)
+* [テキスト - Hello Python!](../text/01_basic.md)
