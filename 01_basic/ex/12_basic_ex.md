@@ -154,4 +154,4 @@ $ python def_ex5.py
 
 ### テキスト
 
-* [テキスト - 関数 - 関数の定義](../text/12_basic_ex.md)
+* [テキスト - 関数 - 関数の定義](../text/12_basic.md)

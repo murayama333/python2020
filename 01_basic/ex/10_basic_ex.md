@@ -110,4 +110,4 @@ $ python lc_ex5.py
 
 ### テキスト
 
-* [テキスト - リストの内包表記](../text/10_basic_ex.md)
+* [テキスト - リストの内包表記](../text/10_basic.md)

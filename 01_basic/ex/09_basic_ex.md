@@ -155,4 +155,4 @@ $ python tuple_ex7.py
 
 ### テキスト
 
-* [テキスト - データ構造 - タプル](../text/09_basic_ex.md)
+* [テキスト - データ構造 - タプル](../text/09_basic.md)

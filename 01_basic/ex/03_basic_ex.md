@@ -265,4 +265,4 @@ member = input("MEMBER: ")
 
 ### テキスト
 
-* [テキスト - 制御構文 - 分岐構造 - if文](../text/03_basic_ex.md)
+* [テキスト - 制御構文 - 分岐構造 - if文](../text/03_basic.md)
