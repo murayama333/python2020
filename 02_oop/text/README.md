@@ -8,15 +8,14 @@
   + [継承](02_extends.md)
     - オーバーライド
     - `super()` 呼び出し
-  + データ属性
+  + [データ属性とカプセル化](03_capsule.md)
     - 非公開データ属性
     - Getter/Setter
     - プロパティ
     - `@property` デコレーター
-  + メソッド
-    - クラスメソッド `@classmethod`
+  + [クラスメソッド `@classmethod`](04_classmethod.md)
     - スタティックメソッド `@staticmethod`
-  + クラスの関連
+  + [クラスの関連](05_composition.md)
 * オブジェクト指向プログラミングの実践
   + 組み込みクラス - str型
   + 組み込みクラス - int型
