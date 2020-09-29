@@ -3,4 +3,4 @@ class Sale:
         return 0
 
     def print(self):
-        print("Unimplemented")
+        print(0)
