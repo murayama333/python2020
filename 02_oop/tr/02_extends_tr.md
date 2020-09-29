@@ -181,4 +181,4 @@ class Golem:
 
 ## テキスト
 
-* [テキスト - クラスとインスタンス](../text/01_class.md)
+* [テキスト - 継承](../text/02_extends.md)
