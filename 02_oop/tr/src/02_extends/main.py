@@ -1,6 +1,6 @@
 from mymonsters.monster import Monster, Dragon, Golem
 
-dragon = Dragon("Dragon", 150, 50)
+dragon = Dragon("Dragon", 150, 50, 3)
 golem = Golem("Golem", 300, 30)
 dragon.print_status()
 golem.print_status()

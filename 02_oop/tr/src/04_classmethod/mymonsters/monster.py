@@ -45,9 +45,7 @@ class Dragon(Monster):
         print(f"{self.name} FIRE!! {target.name}! damage: {damage}")
 
     def calc_damage(self):
-        if random.randint(0, 1) == 0:
-            return self.ap
-        return self.ap * 2
+        return int(self.ap + self.ap * random.random())
 
 
 class Golem(Monster):
@@ -55,4 +53,6 @@ class Golem(Monster):
         print(f"{self.name} BOOM!! {target.name}! damage: {damage}")
 
     def calc_damage(self):
-        return int(self.ap + self.ap * random.random())
+        if random.randint(0, 1) == 0:
+            return self.ap
+        return self.ap * 2

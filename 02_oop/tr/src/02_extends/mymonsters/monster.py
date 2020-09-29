@@ -28,17 +28,28 @@ class Monster:
         return self.hp <= 0
 
 class Dragon(Monster):
+    def __init__(self, name, hp, ap, mp):
+        super().__init__(name, hp, ap)
+        self.mp = mp
+
     def print_attack_message(self, target, damage):
-        print(f"{self.name} FIRE!! {target.name}! damage: {damage}")
+        if self.mp > 0:
+            print(f"{self.name} FIRE!! {target.name}! damage: {damage}")
+            self.mp = self.mp - 1
+        else:
+            super().print_attack_message(target, damage)
     
     def calc_damage(self):
-        if random.randint(0, 1) == 0:
-            return self.ap
-        return self.ap * 2
+        if self.mp > 0:
+            return int(self.ap + self.ap * random.random())
+        return super().calc_damage()
+
 
 class Golem(Monster):
     def print_attack_message(self, target, damage):
         print(f"{self.name} BOOM!! {target.name}! damage: {damage}")
     
     def calc_damage(self):
-        return int(self.ap + self.ap * random.random())
+        if random.randint(0, 1) == 0:
+            return self.ap
+        return self.ap * 2

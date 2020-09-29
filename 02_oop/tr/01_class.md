@@ -2,7 +2,7 @@
 
 2匹のモンスターがバトルするゲームを作成します。
 
-## 課題 1 - クラスとインスタンス
+# 課題 1.1 - クラスとインスタンス
 
 以下のフォルダ構成に従ってPythonプログラムを作成します。
 
@@ -16,7 +16,7 @@ tr01
 
 > `main.py` は完成しているので、 `monster.py` を作成します。 `__init__.py` は空のファイルです。
 
-### 実行結果
+## 実行結果
 
 ``` 
 $ main.py
@@ -45,7 +45,7 @@ Dragon HP: 0
 Winner: Golem
 ```
 
-### `main.py`
+### `main.py` - 実装済み
 
 ``` py
 from mymonsters.monster import Monster
@@ -67,9 +67,13 @@ while(True):
 print("Winner:", winner.name)
 ```
 
-### `monster.py`
+---
 
-#### Monsterクラス - データ属性
+## `monster.py`
+
+### `Monster` クラス
+
+#### `Monster` クラス - データ属性
 
 |データ属性名|意味|データ型|
 |:--|:--|:--|
@@ -77,7 +81,7 @@ print("Winner:", winner.name)
 | `hp` | ライフ<br> | `int` |
 | `ap` | 攻撃力 | `int` |
 
-#### Monsterクラス - メソッド
+#### `Monster` クラス - メソッド
 
 |メソッド名|引数|戻り値|処理|
 |:--|:--|:--|:--|
@@ -111,7 +115,7 @@ class Monster:
 
 ---
 
-## 課題 2 - クラスとインスタンス
+## 課題 1.2 - クラスとインスタンス
 
 `calc_damage` メソッドを修正して、与えるダメージにばらつきが出るようにしてください。
 
