@@ -1,11 +1,11 @@
 # トレーニング - Monster Battle Game
 
-# 課題 3.1 - データ属性とカプセル化
+# 課題 4.1 - メソッド
 
 以下のフォルダ構成に従ってPythonプログラムを作成します。
 
 ``` 
-tr03
+tr04
 ├── main.py
 └── mymonsters
     ├── __init__.py
@@ -20,26 +20,26 @@ tr03
 $ python main.py
 Dragon HP: 150
 Golem  HP: 300
+Golem BOOM!! Dragon! damage: 60
+Dragon HP: 90
 Dragon FIRE!! Golem! damage: 78
 Golem  HP: 222
 Golem BOOM!! Dragon! damage: 30
-Dragon HP: 120
+Dragon HP: 60
 Dragon FIRE!! Golem! damage: 58
 Golem  HP: 164
+Dragon FIRE!! Golem! damage: 60
+Golem  HP: 104
 Golem BOOM!! Dragon! damage: 30
-Dragon HP: 90
-Dragon FIRE!! Golem! damage: 53
-Golem  HP: 111
+Dragon HP: 30
+Dragon FIRE!! Golem! damage: 77
+Golem  HP: 27
 Golem BOOM!! Dragon! damage: 30
-Dragon HP: 60
-Dragon FIRE!! Golem! damage: 75
-Golem  HP: 36
-Golem BOOM!! Dragon! damage: 60
 Dragon HP: 0
 Winner: Golem
 ```
 
-> 実行する度に数値や結果は変化します。
+> 先攻後攻が変化するように実装します。
 
 ### `main.py` - 実装済み
 
@@ -52,19 +52,19 @@ dragon.print_status()
 golem.print_status()
 winner = None
 while(True):
-    dragon.attack(golem)
-    if golem.is_down:
-        winner = dragon
+    monster1, monster2 = Monster.shuffle(dragon, golem)
+    monster1.attack(monster2)
+    if monster2.is_down:
+        winner = monster1
         break
-    golem.attack(dragon)
-    if dragon.is_down:
-        winner = golem
+    monster2.attack(monster1)
+    if monster1.is_down:
+        winner = monster2
         break
 print("Winner:", winner.name)
 ```
 
-
-> `if golem.is_down:` のように条件式を変更しています。
+> `while` 文の中に `monster1, monster2 = Monster.shuffle(dragon, golem)` を追記しています。
 
 ## `monster.py`
 
@@ -78,34 +78,24 @@ print("Winner:", winner.name)
 
 ### `Monster` クラス
 
-#### `Monster` クラス - データ属性 - 実装済み
-
-|データ属性名|意味|データ型|プロパティ|
-|:--|:--|:--|:--|
-| `__name` |モンスターの名前 | `str` |Getterのみ|
-| `__hp` | ライフ<br> | `int` |Getter/Setter|
-| `__ap` | 攻撃力 | `int` |Getterのみ|
-
-
 #### `Monster` クラス - メソッド - 実装済み
 
-以下の `is_down` メソッドをプロパティに変更します。
+以下の `shuffle` メソッドを追加します。
 
 |メソッド名|引数|戻り値|処理|
 |:--|:--|:--|:--|
-| `is_down` |なし| `bool` | `self.hp` が `0` 以下の場合、 `True` <br>それ以外の場合は `False` を返却する|
+| `shuffle` |モンスター1<br>モンスター2| モンスター1, 2をシャッフルしたタプル | TODO |
 
-> データ属性の追加は不要です。`is_down`メソッドに `@property` デコレータを付与してください。
-
+> `shuffle` メソッドは、クラスメソッド、あるいはスタティックメソッドとして実装します。
 
 ---
 
-# 課題 3.2 - データ属性とカプセル化
+# 課題 4.2 - データ属性とカプセル化
 
-`__hp` にSetterプロパティを定義しない場合、どのようなエラーが発生するか確認してください。またその原因を考察してください。
+`shuffle` メソッドが3匹以上のモンスターを受け取れるようにするにはどうすれば良いか考察してください。
 
 ---
 
 ## テキスト
 
-* [テキスト - 継承](../text/02_extends.md)
+* [テキスト - メソッド](../text/04_method.md)

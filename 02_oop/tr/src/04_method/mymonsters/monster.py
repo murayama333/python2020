@@ -3,9 +3,9 @@ import random
 
 class Monster:
     def __init__(self, name, hp, ap):
-        self._name = name
-        self.hp = hp
-        self.ap = ap
+        self.__name = name
+        self.__hp = hp
+        self.__ap = ap
 
     def attack(self, target):
         damage = self.calc_damage()
@@ -31,7 +31,19 @@ class Monster:
 
     @property
     def name(self):
-        return self._name
+        return self.__name
+
+    @property
+    def hp(self):
+        return self.__hp
+
+    @hp.setter
+    def hp(self, hp):
+        self.__hp = hp
+
+    @property
+    def ap(self):
+        return self.__ap
 
     @staticmethod
     def shuffle(monster1, monster2):
@@ -56,14 +68,3 @@ class Golem(Monster):
         if random.randint(0, 1) == 0:
             return self.ap
         return self.ap * 2
-
-
-class MonsterParty:
-    def __init__(self):
-        self.monsters = []
-    
-    def add(self, monster):
-        self.monsters.append(monster)
-
-    def show_monsters(self):
-        [monster.print_status() for monster in self.monsters]
