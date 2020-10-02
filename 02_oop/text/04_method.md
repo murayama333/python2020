@@ -96,4 +96,4 @@ call myStaticMethod 100
 
 ## 演習
 
-* [エクササイズ - メソッド](../ex/03_capsule_ex.md)
+* [エクササイズ - メソッド](../ex/04_method_ex.md)

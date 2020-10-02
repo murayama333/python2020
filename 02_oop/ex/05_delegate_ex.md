@@ -72,4 +72,4 @@ Customer A
 
 ### テキスト
 
-* [テキスト - オブジェクトの関連](../text/05_composition.md)
+* [テキスト - オブジェクトの関連（処理の委譲）](../text/05_delegate.md)

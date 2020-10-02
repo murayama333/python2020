@@ -12,10 +12,10 @@
     - 非公開データ属性
     - Getter/Setter
     - プロパティ
-    - `@property` デコレーター
+    - `@property` デコレータ
   + [クラスメソッド `@classmethod`](04_classmethod.md)
     - スタティックメソッド `@staticmethod`
-  + [クラスの関連](05_composition.md)
+  + [クラスの関連（処理の委譲）](05_delegate.md)
 * オブジェクト指向プログラミングの実践
   + 組み込みクラス - str型
   + 組み込みクラス - int型

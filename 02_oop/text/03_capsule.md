@@ -188,7 +188,7 @@ call myMethod 1 100 200
 
 ---
 
-## プロパティデコレータ
+## `@property` デコレータ
 
 ### `main.py`
 
@@ -245,4 +245,4 @@ call myMethod 1 100 200
 
 ## 演習
 
-* [エクササイズ - データ属性](../ex/03_capsule_ex.md)
+* [エクササイズ - データ属性とカプセル化](../ex/03_capsule_ex.md)
