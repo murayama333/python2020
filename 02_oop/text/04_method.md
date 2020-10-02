@@ -1,6 +1,6 @@
 # メソッド
 
-## クラスメソッド
+## `@classmethod` - クラスメソッド
 
 ### `main.py`
 
@@ -44,7 +44,7 @@ call myClassMethod 10 1000
 
 ---
 
-## スタティックメソッド
+## `@staticmethod` - スタティックメソッド
 
 ### `main.py`
 

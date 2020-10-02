@@ -13,8 +13,8 @@
     - Getter/Setter
     - プロパティ
     - `@property` デコレータ
-  + [クラスメソッド `@classmethod`](04_classmethod.md)
-    - スタティックメソッド `@staticmethod`
+  + [`@classmethod` - クラスメソッド](04_method.md)
+    - `@staticmethod` - スタティックメソッド
   + [クラスの関連（処理の委譲）](05_delegate.md)
 * オブジェクト指向プログラミングの実践
   + 組み込みクラス - str型
