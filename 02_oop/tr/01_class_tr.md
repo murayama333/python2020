@@ -19,7 +19,7 @@ tr01
 ## 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 Dragon HP: 150
 Golem  HP: 300
 Dragon attacks Golem! damage: 50

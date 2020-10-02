@@ -16,7 +16,7 @@ ex01
 
 > `main.py` は完成しているので、 `sale.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 from mysales.sale import Sale
@@ -30,11 +30,11 @@ print(sale)
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 <mysales.sale.Sale object at 0x10368d040>
 ```
 
-### `mysales/sale.py` - 実装済み
+### `mysales/sale.py`
 
 ``` py
 # TODO
@@ -58,7 +58,7 @@ ex02
 
 > `main.py` は完成しているので、 `monster.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 from mysales.sale import Sale
@@ -73,12 +73,12 @@ sale.print()
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 0
 0
 ```
 
-### `mysales/sale.py` - 実装済み
+### `mysales/sale.py`
 
 ``` py
 class Sale:
@@ -106,7 +106,7 @@ ex03
 
 > `main.py` は完成しているので、 `monster.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 from mysales.sale import Sale
@@ -121,12 +121,12 @@ sale.print()
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 8000
 8,000
 ```
 
-### `mysales/sale.py` - 実装済み
+### `mysales/sale.py`
 
 ``` py
 class Sale:
@@ -159,7 +159,7 @@ ex04
 
 > `main.py` は完成しているので、 `monster.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 from mysales.sale import Sale
@@ -174,7 +174,7 @@ sale.print()
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 8000
 8,000
 ```

@@ -19,5 +19,6 @@ class Sale:
     def get_sale_count(cls):
         return cls.sale_count;
 
+    @staticmethod
     def get_now():
         return datetime.datetime.now()

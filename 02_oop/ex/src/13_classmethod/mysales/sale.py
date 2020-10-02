@@ -1,5 +1,3 @@
-import datetime
-
 class Sale:
 
     sale_count = 0

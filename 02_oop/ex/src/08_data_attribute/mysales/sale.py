@@ -1,5 +1,3 @@
-import datetime
-
 class Sale:
     def __init__(self, price, count):
         self.price = price

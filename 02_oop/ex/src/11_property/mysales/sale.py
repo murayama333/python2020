@@ -1,5 +1,3 @@
-import datetime
-
 class Sale:
     def __init__(self, price, count):
         self.__price = price
@@ -11,18 +9,17 @@ class Sale:
     def print(self):
         print(f"{self.calc():,d}")
 
-    @property
-    def price(self):
+    def get_price(self):
         return self.__price
 
-    @price.setter
-    def price(self, price):
+    def set_price(self, price):
         self.__price = price
 
-    @property
-    def count(self):
+    def get_count(self):
         return self.__count
 
-    @count.setter
-    def count(self, count):
+    def set_count(self, count):
         self.__count = count
+
+    price = property(get_price, set_price)
+    count = property(get_count, set_count)

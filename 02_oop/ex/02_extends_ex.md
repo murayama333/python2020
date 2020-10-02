@@ -18,7 +18,7 @@ ex05
 
 > `main.py` は完成しているので、 `sale.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 from mysales.sale import DailySale
@@ -33,14 +33,14 @@ print(sale.calc())
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 2020-09-29
 8000
 ```
 
 > 出力の日付部分は変化します。
 
-### `mysales/sale.py` - 実装済み
+### `mysales/sale.py`
 
 ``` py
 import datetime
@@ -79,7 +79,7 @@ ex06
 
 > `main.py` は完成しているので、 `monster.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 from mysales.sale import DailySale
@@ -93,11 +93,11 @@ sale.print()
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 2020-09-29 8,000
 ```
 
-### `mysales/sale.py` - 実装済み
+### `mysales/sale.py`
 
 ``` py
 import datetime
@@ -141,7 +141,7 @@ ex07
 
 > `main.py` は完成しているので、 `monster.py` を作成します。 `__init__.py` は空のファイルです。
 
-### main.py
+### `main.py` - 実装済み
 
 ``` py
 import datetime
@@ -163,12 +163,12 @@ sale.print()
 ### 実行結果
 
 ``` 
-$ main.py
+$ python main.py
 2020-09-29 8,000
 2020-10-01 5,000
 ```
 
-### `mysales/sale.py` - 実装済み
+### `mysales/sale.py`
 
 ``` py
 import datetime

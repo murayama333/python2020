@@ -13,13 +13,8 @@ class MyClass:
     def myClassMethod(cls, arg1):
         print("call myClassMethod", arg1, cls.a)
 
-    @staticmethod
-    def myStaticMethod(arg1):
-        print("call myStaticMethod", arg1)
-
 
 if __name__ == "__main__":
     instance = MyClass(100, 200)
     instance.myMethod(1)
     MyClass.myClassMethod(10)
-    MyClass.myStaticMethod(100)

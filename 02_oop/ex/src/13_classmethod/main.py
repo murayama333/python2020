@@ -1,4 +1,3 @@
-import datetime
 from mysales.sale import Sale
 
 sale1 = Sale(800, 10)
