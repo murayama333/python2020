@@ -8,4 +8,4 @@ def truncate(str, length=10):
 
 messages = ["Hello", "Hello World", "This is a pen."]
 for message in messages:
-    print(truncate(message))
+    print(truncate(message, 10))
