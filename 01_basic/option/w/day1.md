@@ -69,6 +69,8 @@ Hello
 World
 ```
 
+> `count` に指定した回数分 `message1` と `message2` を交互に繰り返し表示します。
+
 ---
 
 ## `no04.py`
@@ -168,9 +170,9 @@ names = ["Andy", "Betty", "Carol"]
 ＜実行結果＞
 
 ``` 
-Andy 4
-Betty 5
-Carol 5
+Andy: 4
+Betty: 5
+Carol: 5
 ```
 
 > リストの要素の文字数を表示します。
@@ -329,7 +331,7 @@ High Score Andy: 260
 High Score Dave: 260
 ```
 
-> 合計点の最も高いデータを表示します。します。同点の場合は複数件表示します。
+> 合計点の最も高いデータを表示します。ただし、同点の場合は複数件表示します。
 
 ---
 
@@ -362,6 +364,7 @@ C-class: 3
 ``` py
 # TODO def repeat function
 
+
 message = "Hello"
 print(repeat(message))
 print(repeat(message, 5))
@@ -385,9 +388,10 @@ HelloHelloHelloHelloHello
 ``` py
 # TODO def truncate funtion
 
+
 messages = ["Hello", "Hello World", "This is a pen."]
 for message in messages:
-    print(truncate(message))
+    print(truncate(message, 10))
 ```
 
 実行結果のとおり出力してください。
@@ -411,6 +415,7 @@ This is...
 ``` py
 # TODO def pad_left function
 
+
 names = ["Andy", "Bob"]
 for name in names:
     print(pad_left(name, 5))
@@ -431,7 +436,6 @@ for name in names:
 
 > 指定した文字数分、左側に空白や指定した記号を埋めます。
 
-
 ---
 
 ## `no20.py`
@@ -440,6 +444,7 @@ for name in names:
 
 ``` py
 # TODO def pair_list function
+
 
 names1 = ["Andy", "Bob", "Carol"]
 names2 = ["Alice", "Betty", "Charlie"]

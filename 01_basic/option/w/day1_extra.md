@@ -34,7 +34,9 @@ print(f"{total:,}")
 ``` py
 # TODO def calc_item function 
 
+
 # TODO def calc_total function
+
 
 items = [{"price": 100, "count": 3},
          {"price": 200, "count": 2},
@@ -59,10 +61,7 @@ print(f"{total:,}")
 
 ``` py
 # def print_board function
-    for i in range(rows):
-        for j in range(columns):
-            print(symbol, end="")
-        print()
+
 
 print_board()
 print_board(rows=3, columns=9)
