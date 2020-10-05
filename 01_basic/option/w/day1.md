@@ -1,4 +1,4 @@
-# Python基礎 実力テスト
+# Python基礎 実力テスト - Part1
 
 ## `no01.py`
 
