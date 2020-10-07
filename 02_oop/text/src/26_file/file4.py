@@ -1,0 +1,7 @@
+f = open("names.txt", mode="r")
+print(f.read(1))
+f.seek(6)
+print(f.read(1))
+f.seek(10)
+print(f.read(1))
+f.close()
