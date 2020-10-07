@@ -38,7 +38,7 @@ Rest Member Count: 4
 
 ## 2. グループメンバー数の表示
 
-先ほどのプログラムを修正して、の実行結果のとおり出力するプログラムを作成してください。
+先ほどのプログラムを修正して、実行結果のとおり出力するプログラムを作成してください。
 
 ### 実行結果
 
@@ -57,7 +57,7 @@ Group Member Counts: [4, 4, 4, 4, 3]
 
 ## 3. グループメンバーの表示
 
-先ほどのプログラムを修正して、の実行結果のとおり出力するプログラムを作成してください。
+先ほどのプログラムを修正して、実行結果のとおり出力するプログラムを作成してください。
 
 ### 実行結果
 
@@ -68,17 +68,17 @@ Member Count: 19
 Group Member Count: 4
 Rest Member Count: 3
 Group Member Counts: [5, 5, 5, 4]
-Group1: Abel Albert Alex Alice Andy 
-Group2: Bella Benn Betty Billie Bob 
-Group3: Carol Clara Connie Crysta Cyndy 
-Group4: Daniel David Denny Diana 
+Group1: Alice Alex Andy Abel Albert
+Group2: Betty Bob Bella Billie Benn
+Group3: Carol Connie Crysta Clara Cyndy
+Group4: Daniel David Denny Diana
 ```
 
 ---
 
 ## 4. シャッフル機能の追加
 
-先ほどのプログラムを修正して、の実行結果のとおり出力するプログラムを作成してください。
+先ほどのプログラムを修正して、実行結果のとおり出力するプログラムを作成してください。
 
 ### 実行結果
 
@@ -89,10 +89,10 @@ Member Count: 19
 Group Member Count: 4
 Rest Member Count: 3
 Group Member Counts: [5, 5, 5, 4]
-Group1: Denny Daniel Alice Albert Connie 
-Group2: Billie Abel Betty Crysta Clara 
-Group3: Diana Bob Carol Andy Benn 
-Group4: Cyndy Alex David Bella 
+Group1: Cyndy Crysta David Betty Andy
+Group2: Daniel Billie Denny Connie Diana
+Group3: Clara Bob Alex Benn Bella
+Group4: Carol Abel Alice Albert
 ```
 
 > `Shuffle (0: False, 1:True): 1` を追加します。ユーザがシャッフルの有無を `0` or `1` で入力するものとします。
@@ -101,7 +101,7 @@ Group4: Cyndy Alex David Bella
 
 ## ５. ソート機能の追加
 
-先ほどのプログラムを修正して、の実行結果のとおり出力するプログラムを作成してください。
+先ほどのプログラムを修正して、実行結果のとおり出力するプログラムを作成してください。
 
 ### 実行結果
 
@@ -125,7 +125,7 @@ Group4: Albert Bob Connie Daniel
 
 ## 6. 表示の切り替え
 
-先ほどのプログラムを修正して、の実行結果のとおり出力するプログラムを作成してください。
+先ほどのプログラムを修正して、実行結果のとおり出力するプログラムを作成してください。
 
 ### 実行結果
 
