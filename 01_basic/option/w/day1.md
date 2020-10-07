@@ -26,7 +26,7 @@ Hello
 次のプログラムがあります。
 
 ``` py
-count = 10
+count = 3
 message = "Hello"
 ```
 
