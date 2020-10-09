@@ -5,11 +5,6 @@ print("l find:", l_find)
 x_find = str.find("x")
 print("x find:", x_find)
 
-l_in_str = "l" in str
-print("l in str:", l_in_str)
-x_in_str = "x" in str
-print("x in str:", x_in_str)
-
 try:
     l_index = str.index("l")
     print("l index:", l_index)
@@ -17,3 +12,8 @@ try:
     print("i index:", x_index)
 except ValueError as e:
     print(e)
+
+l_in_str = "l" in str
+print("l in str:", l_in_str)
+x_in_str = "x" in str
+print("x in str:", x_in_str)

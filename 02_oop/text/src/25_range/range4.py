@@ -1,7 +1,7 @@
 def my_range(start, end, step=1):
     index = start
     while index < end:
-        print("yield")
+        print("yield", index)
         yield index
         index += step
 

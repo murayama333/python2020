@@ -1,11 +1,16 @@
-x_list = [int(x) for x in input("X: ").split(" ")]
-y_list = [int(y) for y in input("Y: ").split(" ")]
+class MyError(Exception):
+    pass
+
+
+def check_value(value):
+    if value < 0:
+        raise MyError(f"Invalid value: {value}")
+    return "OK"
+
+
 try:
-    for i in range(len(x_list)):
-        z = x_list[i] / y_list[i]
-        print(z)
-except ZeroDivisionError as e:
-    print("ZeroDivisionError", e)
-except IndexError as e:
-    print("IndexError")
-    # e.with_traceback()
+    print(check_value(1))
+    print(check_value(-1))
+
+except MyError as e:
+    print(e)
