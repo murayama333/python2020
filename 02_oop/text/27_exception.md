@@ -1,6 +1,6 @@
-# 例外
+# 例外処理
 
-## 例外
+## 例外処理
 
 ### `ex1.py`
 
@@ -178,4 +178,4 @@ https://docs.python.org/ja/3.7/library/exceptions.html#exception-hierarchy
 
 ## 演習
 
-* [エクササイズ - 例外](../ex/27_ex_exception.md)
+* [エクササイズ - 例外処理](../ex/27_exception_ex.md)
