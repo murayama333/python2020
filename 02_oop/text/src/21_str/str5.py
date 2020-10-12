@@ -1,3 +1,3 @@
-names = ["Alice", "Bob", "Charlie"]
-namses_str = "-".join(names)
-print(namses_str)
+names_str = "Alice,Bob,Charlie"
+namses = names_str.split(",")
+print(namses)

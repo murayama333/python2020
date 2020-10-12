@@ -142,25 +142,25 @@ d
 ### `str5.py`
 
 ``` py
-names = ["Alice", "Bob", "Charlie"]
-namses_str = "-".join(names)
-print(namses_str)
+names_str = "Alice,Bob,Charlie"
+namses = names_str.split(",")
+print(namses)
 ```
 
 ### 実行結果
 
 ``` 
 $ python str5.py
-Alice-Bob-Charlie
+['Alice', 'Bob', 'Charlie']
 ```
 
 ### 解説
 
-* `join` メソッドは、その文字列を区切り文字として、引数で受け取ったシーケンスを文字列に変換する
+* `split` メソッドは、引数に指定した区切り文字で配列に分割します。
 
 ---
 
-### `str5.py`
+### `str6.py`
 
 ``` py
 names = ["Alice", "Bob", "Charlie"]
@@ -171,7 +171,7 @@ print(namses_str)
 ### 実行結果
 
 ``` 
-$ python str5.py
+$ python str6.py
 Alice-Bob-Charlie
 ```
 
@@ -181,7 +181,7 @@ Alice-Bob-Charlie
 
 ---
 
-### `str6.py`
+### `str7.py`
 
 ``` py
 strs = ["12345", "ABCDE", "ABC12"]
@@ -192,7 +192,7 @@ for str in strs:
 ### 実行結果
 
 ``` 
-$ python str6.py
+$ python str7.py
 12345 False
 ABCDE True
 ABC12 False
@@ -204,7 +204,7 @@ ABC12 False
 
 ---
 
-### `str7.py`
+### `str8.py`
 
 ``` py
 str = "Title: {0} Price: {1:,}"
@@ -220,7 +220,7 @@ print(f"Title: {title} Price: {price:,}")
 ### 実行結果
 
 ``` 
-$ python str7.py
+$ python str8.py
 Title: Python Book Price: 3000
 Title: Python Book Price: 3000
 ```
