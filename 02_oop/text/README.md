@@ -4,7 +4,7 @@
   + [クラスとインスタンス](01_class.md)
   + [継承](02_extends.md)
   + [データ属性とカプセル化](03_capsule.md)
-  + [ `@classmethod` - クラスメソッド](04_method.md)
+  + [メソッド](04_method.md)
   + [クラスの関連（処理の委譲）](05_delegate.md)
 * オブジェクト指向プログラミングの実践
   + [組み込み型 - `str` 型](21_str.md)
