@@ -1,6 +1,6 @@
 # エクササイズ - モジュール
 
-##  mod_ex1.py mode.py
+##  mod_ex1.py
 
 ### figure.py
 
