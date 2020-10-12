@@ -7,13 +7,13 @@
   + [トレーニング - メソッド](04_method_tr.md)
   + [トレーニング - クラスの関連（処理の委譲）](05_delegate_tr.md)
 * オブジェクト指向プログラミングの実践
-  + [組み込み型 - `str` 型](21_str_tr.md)
-  + [組み込み型 - `bytes` 型](22_bytes_tr.md)
-  + [組み込み型 - `list` 型](23_list_tr.md)
-  + [組み込み型 - `dict` 型](24_dict_tr.md)
-  + [組み込み型 - `range` 型](25_range_tr.md)
-  + [ファイルオブジェクト](26_fileobject_tr.md)
-  + [例外処理](27_exception_tr.md)
+  + [トレーニング - 組み込み型 - `str` 型](21_str_tr.md)
+  + [トレーニング - 組み込み型 - `bytes` 型](22_bytes_tr.md)
+  + [トレーニング - 組み込み型 - `list` 型](23_list_tr.md)
+  + [トレーニング - 組み込み型 - `dict` 型](24_dict_tr.md)
+  + [トレーニング - 組み込み型 - `range` 型](25_range_tr.md)
+  + [トレーニング - ファイルオブジェクト](26_fileobject_tr.md)
+  + [トレーニング - 例外処理](27_exception_tr.md)
 
 ## テキスト教材
 
