@@ -250,6 +250,9 @@ class Sale:
 
 ``` 
 $ python main.py
+20,000
+1000
+20
 ```
 
 ---
