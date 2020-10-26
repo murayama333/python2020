@@ -78,7 +78,7 @@ print("Winner:", winner.name)
 
 ### `Monster` クラス
 
-#### `Monster` クラス - データ属性 - 実装済み
+#### `Monster` クラス - データ属性
 
 |データ属性名|意味|データ型|プロパティ|
 |:--|:--|:--|:--|
@@ -87,7 +87,7 @@ print("Winner:", winner.name)
 | `__ap` | 攻撃力 | `int` |Getterのみ|
 
 
-#### `Monster` クラス - メソッド - 実装済み
+#### `Monster` クラス - メソッド
 
 以下の `is_down` メソッドをプロパティに変更します。
 
@@ -108,4 +108,4 @@ print("Winner:", winner.name)
 
 ## テキスト
 
-* [テキスト - 継承](../text/02_extends.md)
+* [テキスト - データ属性とカプセル化](../text/03_capsule.md)
