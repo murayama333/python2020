@@ -32,8 +32,7 @@ if __name__ == "__main__":
 
 ``` 
 $ python main.py
-call myMethod 1 100 200
-call myClassMethod 10 1000
+call myMethod 1 10 20
 ```
 
 ### 解説
