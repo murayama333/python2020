@@ -56,8 +56,6 @@ $ python list_ex3.py
 ['Charlie', 'Carol', 'Bob', 'Betty', 'Andy', 'Alice']
 ```
 
-> `abcdef` をUTF-8（ASCIIコード）で変換して16進数表記します。
-
 ---
 
 ## `list_ex4.py`
