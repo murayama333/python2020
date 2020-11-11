@@ -119,8 +119,8 @@ while len(numbers) > 0:
 $ python list_ex6.py
 5
 4
-4
 3
+2
 1
 ```
 
