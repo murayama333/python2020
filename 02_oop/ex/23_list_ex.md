@@ -117,7 +117,11 @@ while len(numbers) > 0:
 
 ``` 
 $ python list_ex6.py
-['Alice', 'Andy', 'Betty', 'Bob', 'Carol', 'Charlie']
+5
+4
+4
+3
+1
 ```
 
 > `numbers` の要素を終端から1つずつ取得します。
