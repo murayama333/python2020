@@ -1,8 +1,7 @@
 import numpy as np
 
-a = np.array([50, 60, 80, 60, 50])
+a = np.array([80, 60, 30, 70, 40])
+print(a < 50)
+
+a[a < 50] = 0
 print(a)
-print(np.sum(a))
-print(np.average(a))
-print(np.var(a))
-print(np.std(a))
