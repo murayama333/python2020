@@ -5,7 +5,7 @@
 + [トレーニング - matplotlib](02_tr.md)
 + [トレーニング - pandas - 1](03_tr.ipynb)
 + [トレーニング - pandas - 2](04_tr.ipynb)
-+ トレーニング - sklearn - 1
++ [トレーニング - sklearn - 1](10_tr.ipynb)
 + トレーニング - sklearn - 2
 
 ## テキスト教材
