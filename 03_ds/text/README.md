@@ -6,4 +6,4 @@
 + [pandas - 1](03.ipynb)
 + [pandas - 2](04.ipynb)
 + [sklearn - 1](10.ipynb)
-+ sklearn - 2
++ [sklearn - 2](11.ipynb)

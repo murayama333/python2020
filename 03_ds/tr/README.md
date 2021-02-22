@@ -6,7 +6,7 @@
 + [トレーニング - pandas - 1](03_tr.ipynb)
 + [トレーニング - pandas - 2](04_tr.ipynb)
 + [トレーニング - sklearn - 1](10_tr.ipynb)
-+ トレーニング - sklearn - 2
++ [トレーニング - sklearn - 2](11_tr.ipynb)
 
 ## テキスト教材
 
